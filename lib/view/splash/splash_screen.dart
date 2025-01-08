@@ -7,11 +7,13 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
             height: 300,
             width: 300,
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(color: Colors.amber),
           )
         ],
       ),
