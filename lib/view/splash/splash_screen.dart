@@ -21,7 +21,12 @@ class SplashScreen extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-            )
+            ),
+            SizedBox(height: 20),
+            Text(
+              "Hospital",
+              style: TextStyle(),
+            ),
           ],
         ),
       ),
