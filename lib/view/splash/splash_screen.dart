@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -12,9 +13,14 @@ class SplashScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              height: 300,
-              width: 300,
-              decoration: BoxDecoration(color: Colors.amber),
+              height: 250,
+              width: 250,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage(ImageConstant.logo),
+                  fit: BoxFit.cover,
+                ),
+              ),
             )
           ],
         ),
