@@ -19,7 +19,10 @@ class RegScreen extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-            )
+            ),
+            Text(
+              "HOSPITAL",
+            ),
           ],
         ),
       ),
