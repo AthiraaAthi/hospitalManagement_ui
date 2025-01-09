@@ -13,7 +13,12 @@ class RegScreen extends StatelessWidget {
             Container(
               height: 100,
               width: 100,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage(ImageConstant.logo),
+                  fit: BoxFit.cover,
+                ),
+              ),
             )
           ],
         ),
