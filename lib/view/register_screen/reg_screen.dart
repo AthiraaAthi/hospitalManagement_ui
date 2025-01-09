@@ -22,6 +22,7 @@ class RegScreen extends StatelessWidget {
             ),
             Text(
               "HOSPITAL",
+              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
             ),
           ],
         ),
