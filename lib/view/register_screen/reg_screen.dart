@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class RegScreen extends StatelessWidget {
   const RegScreen({super.key});
@@ -12,6 +13,7 @@ class RegScreen extends StatelessWidget {
             Container(
               height: 100,
               width: 100,
+              decoration: BoxDecoration(),
             )
           ],
         ),
