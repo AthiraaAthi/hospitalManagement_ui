@@ -26,6 +26,10 @@ class RegScreen extends StatelessWidget {
             ),
             Text(
               "Manager",
+              style: TextStyle(
+                fontSize: 20,
+                letterSpacing: 20,
+              ),
             ),
           ],
         ),
