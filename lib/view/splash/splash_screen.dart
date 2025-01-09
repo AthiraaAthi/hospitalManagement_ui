@@ -11,6 +11,10 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() async {
+    await Future.delayed(
+      Duration(seconds: 3),
+    );
+
     super.initState();
   }
 
