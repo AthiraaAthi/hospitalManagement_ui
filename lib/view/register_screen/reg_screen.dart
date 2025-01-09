@@ -8,7 +8,12 @@ class RegScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
-          children: [],
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+            )
+          ],
         ),
       ),
     );
