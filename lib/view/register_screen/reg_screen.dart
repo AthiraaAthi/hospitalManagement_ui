@@ -32,6 +32,11 @@ class RegScreen extends StatelessWidget {
                 letterSpacing: 20,
               ),
             ),
+            TextField(
+              decoration: InputDecoration(
+                hintText: "First Name",
+              ),
+            ),
           ],
         ),
       ),
