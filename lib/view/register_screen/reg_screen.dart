@@ -8,36 +8,41 @@ class RegScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              height: 100,
-              width: 100,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(ImageConstant.logo),
-                  fit: BoxFit.cover,
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(ImageConstant.logo),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-            ),
-            Text(
-              "HOSPITAL",
-              style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
-            ),
-            Text(
-              "Manager",
-              style: TextStyle(
-                fontSize: 20,
-                letterSpacing: 20,
+              Text(
+                "HOSPITAL",
+                style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
               ),
-            ),
-            TextField(
-              decoration: InputDecoration(
-                hintText: "First Name",
+              Text(
+                "Manager",
+                style: TextStyle(
+                  fontSize: 20,
+                  letterSpacing: 20,
+                ),
               ),
-            ),
-          ],
+              SizedBox(height: 20),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: "First Name",
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
