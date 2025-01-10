@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class RegScreen extends StatelessWidget {
@@ -79,7 +80,11 @@ class RegScreen extends StatelessWidget {
               SizedBox(height: 10),
               Container(
                 width: double.infinity,
-                height: 80,
+                height: 72,
+                decoration: BoxDecoration(
+                  color: black,
+                  borderRadius: BorderRadius.circular(10),
+                ),
               )
             ],
           ),
