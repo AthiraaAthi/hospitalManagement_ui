@@ -62,6 +62,7 @@ class RegScreen extends StatelessWidget {
                   border: OutlineInputBorder(),
                 ),
               ),
+              SizedBox(height: 10),
             ],
           ),
         ),
