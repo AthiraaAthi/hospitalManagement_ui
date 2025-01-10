@@ -41,7 +41,12 @@ class RegScreen extends StatelessWidget {
                   border: OutlineInputBorder(),
                 ),
               ),
-              TextField()
+              TextField(
+                decoration: InputDecoration(
+                  hintText: "Last Name",
+                  border: OutlineInputBorder(),
+                ),
+              )
             ],
           ),
         ),
