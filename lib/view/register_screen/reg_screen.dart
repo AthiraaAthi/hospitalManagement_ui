@@ -49,6 +49,11 @@ class RegScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
+              TextField(
+                decoration: InputDecoration(
+                  hintText: "Email",
+                ),
+              ),
             ],
           ),
         ),
