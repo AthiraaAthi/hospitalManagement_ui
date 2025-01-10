@@ -77,7 +77,10 @@ class RegScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
-              Container()
+              Container(
+                width: double.infinity,
+                height: 80,
+              )
             ],
           ),
         ),
