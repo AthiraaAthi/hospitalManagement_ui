@@ -52,6 +52,7 @@ class RegScreen extends StatelessWidget {
               TextField(
                 decoration: InputDecoration(
                   hintText: "Email",
+                  border: OutlineInputBorder(),
                 ),
               ),
             ],
