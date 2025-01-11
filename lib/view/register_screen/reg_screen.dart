@@ -98,6 +98,12 @@ class RegScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
+              Row(
+                children: [
+                  Text("If you already registered Sign In"),
+                  Text("Sign In"),
+                ],
+              )
             ],
           ),
         ),
