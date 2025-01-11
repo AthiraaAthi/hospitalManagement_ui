@@ -80,7 +80,7 @@ class RegScreen extends StatelessWidget {
               SizedBox(height: 10),
               Container(
                 width: double.infinity,
-                height: 72,
+                height: 65,
                 decoration: BoxDecoration(
                   color: black,
                   borderRadius: BorderRadius.circular(10),
@@ -96,7 +96,8 @@ class RegScreen extends StatelessWidget {
                     ),
                   ),
                 ),
-              )
+              ),
+              SizedBox(height: 10),
             ],
           ),
         ),
