@@ -99,8 +99,10 @@ class RegScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("If you already registered Sign In"),
+                  Text("If you already registered"),
+                  SizedBox(width: 5),
                   Text("Sign In"),
                 ],
               )
