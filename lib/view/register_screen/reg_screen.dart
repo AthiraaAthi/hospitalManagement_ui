@@ -85,6 +85,17 @@ class RegScreen extends StatelessWidget {
                   color: black,
                   borderRadius: BorderRadius.circular(10),
                 ),
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Sign Up",
+                    style: TextStyle(
+                      color: white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                ),
               )
             ],
           ),
