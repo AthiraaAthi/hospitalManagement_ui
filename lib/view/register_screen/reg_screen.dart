@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
+import 'package:hospital_ui/view/login_screen/login_screen.dart';
 
 class RegScreen extends StatelessWidget {
   const RegScreen({super.key});
@@ -104,7 +105,12 @@ class RegScreen extends StatelessWidget {
                   Text("If you already registered"),
                   SizedBox(width: 5),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => LoginScreen()),
+                      );
+                    },
                     child: Text("Sign In",
                         style: TextStyle(
                             color: const Color.fromARGB(255, 15, 85, 142))),
