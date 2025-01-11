@@ -103,7 +103,9 @@ class RegScreen extends StatelessWidget {
                 children: [
                   Text("If you already registered"),
                   SizedBox(width: 5),
-                  Text("Sign In"),
+                  Text("Sign In",
+                      style: TextStyle(
+                          color: const Color.fromARGB(255, 15, 85, 142))),
                 ],
               )
             ],
