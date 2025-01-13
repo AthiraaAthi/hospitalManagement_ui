@@ -48,6 +48,8 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 20),
               TextField(
                 decoration: InputDecoration(
+                  fillColor: const Color.fromARGB(255, 230, 228, 228),
+                  filled: true,
                   hintText: "Password",
                   border: OutlineInputBorder(),
                 ),
