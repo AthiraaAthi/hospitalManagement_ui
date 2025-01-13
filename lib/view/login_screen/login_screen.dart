@@ -32,7 +32,13 @@ class LoginScreen extends StatelessWidget {
                 letterSpacing: 20,
               ),
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 100),
+            TextField(
+              decoration: InputDecoration(
+                hintText: "Email",
+                border: OutlineInputBorder(),
+              ),
+            ),
           ],
         ),
       ),
