@@ -80,7 +80,9 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [],
+                children: [
+                  Text("Don't have an account?"),
+                ],
               )
             ],
           ),
