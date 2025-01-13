@@ -65,6 +65,17 @@ class LoginScreen extends StatelessWidget {
                   color: black,
                   borderRadius: BorderRadius.circular(10),
                 ),
+                child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Login",
+                    style: TextStyle(
+                      color: white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                ),
               ),
             ],
           ),
