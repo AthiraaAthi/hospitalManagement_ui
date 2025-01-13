@@ -37,11 +37,11 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 100),
               TextField(
                 decoration: InputDecoration(
-                  enabledBorder: InputBorder.none,
                   fillColor: const Color.fromARGB(255, 230, 228, 228),
                   filled: true,
                   hintText: "Email",
                   border: OutlineInputBorder(
+                      borderSide: BorderSide.none,
                       borderRadius: BorderRadius.circular(15)),
                 ),
               ),
