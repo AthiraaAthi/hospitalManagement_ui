@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -57,6 +58,10 @@ class LoginScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 50),
+              Container(
+                width: double.infinity,
+                height: 65,
+              ),
             ],
           ),
         ),
