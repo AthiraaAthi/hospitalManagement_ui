@@ -39,6 +39,7 @@ class LoginScreen extends StatelessWidget {
                 border: OutlineInputBorder(),
               ),
             ),
+            SizedBox(height: 20),
           ],
         ),
       ),
