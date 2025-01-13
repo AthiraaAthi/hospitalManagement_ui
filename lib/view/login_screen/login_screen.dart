@@ -82,6 +82,18 @@ class LoginScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Don't have an account?"),
+                  SizedBox(width: 5),
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => LoginScreen()),
+                      );
+                    },
+                    child: Text("Register now",
+                        style: TextStyle(
+                            color: const Color.fromARGB(255, 15, 85, 142))),
+                  ),
                 ],
               )
             ],
