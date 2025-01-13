@@ -41,7 +41,8 @@ class LoginScreen extends StatelessWidget {
                   fillColor: const Color.fromARGB(255, 230, 228, 228),
                   filled: true,
                   hintText: "Email",
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(15)),
                 ),
               ),
               SizedBox(height: 20),
