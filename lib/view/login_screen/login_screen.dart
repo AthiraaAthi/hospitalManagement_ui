@@ -51,7 +51,9 @@ class LoginScreen extends StatelessWidget {
                   fillColor: const Color.fromARGB(255, 230, 228, 228),
                   filled: true,
                   hintText: "Password",
-                  border: OutlineInputBorder(),
+                  border: OutlineInputBorder(
+                      borderSide: BorderSide.none,
+                      borderRadius: BorderRadius.circular(15)),
                 ),
               ),
             ],
