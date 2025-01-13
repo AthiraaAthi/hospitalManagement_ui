@@ -37,6 +37,7 @@ class LoginScreen extends StatelessWidget {
               SizedBox(height: 100),
               TextField(
                 decoration: InputDecoration(
+                  enabledBorder: InputBorder.none,
                   fillColor: const Color.fromARGB(255, 230, 228, 228),
                   filled: true,
                   hintText: "Email",
