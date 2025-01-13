@@ -56,6 +56,7 @@ class LoginScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15)),
                 ),
               ),
+              SizedBox(height: 50),
             ],
           ),
         ),
