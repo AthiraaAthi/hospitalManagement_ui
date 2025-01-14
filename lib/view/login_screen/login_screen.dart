@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
+import 'package:hospital_ui/view/register_screen/reg_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -87,7 +88,7 @@ class LoginScreen extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => LoginScreen()),
+                        MaterialPageRoute(builder: (context) => RegScreen()),
                       );
                     },
                     child: Text("Register now",
