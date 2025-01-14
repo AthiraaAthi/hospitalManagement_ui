@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
+import 'package:hospital_ui/view/home_screen/home.dart';
 import 'package:hospital_ui/view/login_screen/login_screen.dart';
 
 class RegScreen extends StatelessWidget {
@@ -87,7 +88,12 @@ class RegScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                    );
+                  },
                   child: Text(
                     "Sign Up",
                     style: TextStyle(
