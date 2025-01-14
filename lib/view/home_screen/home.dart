@@ -8,25 +8,37 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.menu),
         centerTitle: true,
-        title: RichText(
-            text: TextSpan(
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        title: Column(
           children: [
-            TextSpan(
-              text: "HOS",
-              style: TextStyle(color: black),
-            ),
-            TextSpan(
-              text: "PI",
-              style: TextStyle(color: mainGreen),
-            ),
-            TextSpan(
-              text: "TAL",
-              style: TextStyle(color: black),
+            RichText(
+                text: TextSpan(
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              children: [
+                TextSpan(
+                  text: "HOS",
+                  style: TextStyle(color: black),
+                ),
+                TextSpan(
+                  text: "PI",
+                  style: TextStyle(color: mainGreen),
+                ),
+                TextSpan(
+                  text: "TAL",
+                  style: TextStyle(color: black),
+                ),
+              ],
+            )),
+            Text(
+              "Manager",
+              style: TextStyle(
+                fontSize: 17,
+                letterSpacing: 10,
+              ),
             ),
           ],
-        )),
+        ),
       ),
     );
   }
