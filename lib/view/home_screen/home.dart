@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -13,7 +14,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             TextSpan(
               text: "HOS",
-              style: TextStyle(),
+              style: TextStyle(color: black),
             ),
           ],
         )),
