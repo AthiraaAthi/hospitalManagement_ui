@@ -16,6 +16,9 @@ class HomeScreen extends StatelessWidget {
               text: "HOS",
               style: TextStyle(color: black),
             ),
+            TextSpan(
+              text: "PI",
+            ),
           ],
         )),
       ),
