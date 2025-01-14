@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
             ),
             TextSpan(
               text: "TAL",
+              style: TextStyle(color: black),
             ),
           ],
         )),
