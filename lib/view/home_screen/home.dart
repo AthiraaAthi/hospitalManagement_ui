@@ -18,6 +18,7 @@ class HomeScreen extends StatelessWidget {
             ),
             TextSpan(
               text: "PI",
+              style: TextStyle(color: mainGreen),
             ),
           ],
         )),
