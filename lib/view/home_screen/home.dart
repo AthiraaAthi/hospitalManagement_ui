@@ -9,8 +9,12 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: RichText(
             text: TextSpan(
-          text: "HOSPITAL",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          children: [
+            TextSpan(
+              text: "HOS",
+            ),
+          ],
         )),
       ),
     );
