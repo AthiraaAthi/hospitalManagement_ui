@@ -20,6 +20,9 @@ class HomeScreen extends StatelessWidget {
               text: "PI",
               style: TextStyle(color: mainGreen),
             ),
+            TextSpan(
+              text: "TAL",
+            ),
           ],
         )),
       ),
