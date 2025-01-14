@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             TextSpan(
               text: "HOS",
+              style: TextStyle(),
             ),
           ],
         )),
