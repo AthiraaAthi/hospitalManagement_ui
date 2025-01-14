@@ -8,6 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: RichText(
             text: TextSpan(
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
