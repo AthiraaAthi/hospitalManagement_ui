@@ -7,7 +7,11 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: RichText(text: TextSpan()),
+        title: RichText(
+            text: TextSpan(
+          text: "HOSPITAL",
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        )),
       ),
     );
   }
