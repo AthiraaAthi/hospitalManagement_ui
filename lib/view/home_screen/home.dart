@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
     "Contact Us",
     "About Us",
   ];
-  final List<Color> colors = [
+  final List<Color> optSampColors = [
     Colors.redAccent,
     Colors.blueAccent,
     Colors.greenAccent,
@@ -140,14 +140,43 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 50,
           ),
           GridView.builder(
+            shrinkWrap: true,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
-              crossAxisSpacing: 10,
-              mainAxisSpacing: 10,
-              childAspectRatio: 1,
+              crossAxisSpacing: 18,
+              mainAxisSpacing: 15,
+              childAspectRatio: 2,
+              mainAxisExtent: 100,
             ),
             itemCount: optTitles.length,
-            itemBuilder: (context, index) {},
+            itemBuilder: (context, index) {
+              return Container(
+                decoration: BoxDecoration(
+                  color: optSampColors[index],
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Container(
+                        height: 50,
+                        width: 50,
+                        color: Colors.white,
+                      ),
+                      Text(
+                        optTitles[index],
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            },
           )
         ],
       ),
