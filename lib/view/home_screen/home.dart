@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final List<Color> colors = [
+  final List<Color> colorList = [
     Colors.red,
     Colors.blue,
     Colors.green,
@@ -73,12 +73,24 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: [
-          CarouselSlider(items: [
-            Container(
-              height: 100,
-              width: 100,
-            )
-          ], options: CarouselOptions())
+          CarouselSlider(
+              items: colorList.map((color) {
+                return Container(
+                  width: double.infinity,
+                  margin: EdgeInsets.symmetric(horizontal: 5.0),
+                  decoration: BoxDecoration(
+                    color: color,
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                );
+              }).toList(),
+              options: CarouselOptions()),
+          SizedBox(
+            height: 25,
+          ),
+          Row(
+            children: [],
+          )
         ],
       ),
     );
