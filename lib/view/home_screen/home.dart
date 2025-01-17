@@ -1,3 +1,4 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
@@ -71,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       body: Column(
-        children: [],
+        children: [CarouselSlider(items: [], options: CarouselOptions())],
       ),
     );
   }
