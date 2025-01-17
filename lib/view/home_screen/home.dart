@@ -30,6 +30,17 @@ class _HomeScreenState extends State<HomeScreen> {
     "Contact Us",
     "About Us",
   ];
+  final List<Color> colors = [
+    Colors.redAccent,
+    Colors.blueAccent,
+    Colors.greenAccent,
+    Colors.orangeAccent,
+    Colors.purpleAccent,
+    Colors.tealAccent,
+    Colors.pinkAccent,
+    Colors.lightGreenAccent,
+    Colors.amberAccent,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
