@@ -17,6 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
     Colors.green,
     Colors.orange
   ];
+  int activeIndex = 0;
+  final CarouselController _controller = CarouselController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -84,12 +86,33 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 );
               }).toList(),
-              options: CarouselOptions()),
+              options: CarouselOptions(
+                height: 200.0,
+                enlargeCenterPage: true,
+                autoPlay: true,
+                autoPlayInterval: Duration(seconds: 2),
+                viewportFraction: 0.9,
+                onPageChanged: (index, reason) {
+                  setState(() {
+                    activeIndex = index;
+                  });
+                },
+              )),
           SizedBox(
             height: 25,
           ),
           Row(
-            children: [],
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: List.generate(colorList.length, (index) {
+              return Padding(
+                padding: EdgeInsets.symmetric(horizontal: 5.0),
+                child: CircleAvatar(
+                  radius: 8,
+                  backgroundColor:
+                      activeIndex == index ? Colors.black : Colors.grey,
+                ),
+              );
+            }),
           )
         ],
       ),
