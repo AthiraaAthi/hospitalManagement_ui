@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
               return Padding(
                 padding: EdgeInsets.symmetric(horizontal: 5.0),
                 child: CircleAvatar(
-                  radius: 8,
+                  radius: 6,
                   backgroundColor:
                       activeIndex == index ? Colors.black : Colors.grey,
                 ),
