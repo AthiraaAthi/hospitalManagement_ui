@@ -72,7 +72,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       body: Column(
-        children: [CarouselSlider(items: [], options: CarouselOptions())],
+        children: [
+          CarouselSlider(items: [
+            Container(
+              height: 100,
+              width: 100,
+            )
+          ], options: CarouselOptions())
+        ],
       ),
     );
   }
