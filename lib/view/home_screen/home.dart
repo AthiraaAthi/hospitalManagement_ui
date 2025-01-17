@@ -139,6 +139,11 @@ class _HomeScreenState extends State<HomeScreen> {
           SizedBox(
             height: 50,
           ),
+          GridView.builder(
+            gridDelegate:
+                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+            itemBuilder: (context, index) {},
+          )
         ],
       ),
     );
