@@ -155,26 +155,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: optSampColors[index],
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Container(
-                        height: 50,
-                        width: 50,
-                        color: Colors.white,
-                      ),
-                      Text(
-                        optTitles[index],
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white),
-                      ),
-                    ],
-                  ),
-                ),
               );
             },
           )
