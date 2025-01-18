@@ -41,7 +41,12 @@ class _HomeScreenState extends State<HomeScreen> {
     Colors.lightGreenAccent,
     Colors.amberAccent,
   ];
-  final List<String> carousals = [];
+  final List<String> carousals = [
+    ImageConstant.carousel1,
+    ImageConstant.carousel2,
+    ImageConstant.carousel1,
+    ImageConstant.carousel2
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
