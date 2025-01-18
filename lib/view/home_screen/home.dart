@@ -47,6 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ImageConstant.carousel1,
     ImageConstant.carousel2
   ];
+  final List<String> optImges = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
