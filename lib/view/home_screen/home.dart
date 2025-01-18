@@ -61,7 +61,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: white,
       appBar: AppBar(
+        backgroundColor: white,
         toolbarHeight: 100,
         leading: Icon(
           Icons.menu,
@@ -162,7 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
             shrinkWrap: true,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
-              crossAxisSpacing: 18,
+              crossAxisSpacing: 20,
               mainAxisSpacing: 15,
               childAspectRatio: 2,
               mainAxisExtent: 100,
@@ -171,8 +173,10 @@ class _HomeScreenState extends State<HomeScreen> {
             itemBuilder: (context, index) {
               return Container(
                 decoration: BoxDecoration(
-                  color: optSampColors[index],
+                  color: white,
                   borderRadius: BorderRadius.circular(12),
+                  image: DecorationImage(
+                      image: AssetImage(optImges[index]), fit: BoxFit.fill),
                 ),
               );
             },
