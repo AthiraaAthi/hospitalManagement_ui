@@ -108,12 +108,12 @@ class _HomeScreenState extends State<HomeScreen> {
               itemBuilder: (context, index, realIndex) {
                 return Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 5.0),
                   decoration: BoxDecoration(
                       color: colorList[index],
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
-                          image: AssetImage(carousalList[index]))),
+                          image: AssetImage(carousalList[index]),
+                          fit: BoxFit.fill)),
                 );
               },
               options: CarouselOptions(
