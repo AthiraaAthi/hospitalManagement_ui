@@ -121,10 +121,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: double.infinity,
                   decoration: BoxDecoration(
                       color: colorList[index],
-                      borderRadius: BorderRadius.circular(15),
+                      borderRadius: BorderRadius.circular(25),
                       image: DecorationImage(
                           image: AssetImage(carousalList[index]),
-                          fit: BoxFit.fill)),
+                          fit: BoxFit.fitWidth)),
                 );
               },
               options: CarouselOptions(
