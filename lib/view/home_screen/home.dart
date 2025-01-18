@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Colors.lightGreenAccent,
     Colors.amberAccent,
   ];
-  final List<String> carousals = [
+  final List<String> carousalList = [
     ImageConstant.carousel1,
     ImageConstant.carousel2,
     ImageConstant.carousel1,
@@ -103,17 +103,19 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: [
-          CarouselSlider(
-              items: colorList.map((color) {
+          CarouselSlider.builder(
+              itemCount: carousalList.length,
+              itemBuilder: (context, index, realIndex) {
                 return Container(
                   width: double.infinity,
                   margin: EdgeInsets.symmetric(horizontal: 5.0),
                   decoration: BoxDecoration(
-                    color: color,
-                    borderRadius: BorderRadius.circular(10.0),
-                  ),
+                      color: colorList[index],
+                      borderRadius: BorderRadius.circular(10.0),
+                      image: DecorationImage(
+                          image: AssetImage(carousalList[index]))),
                 );
-              }).toList(),
+              },
               options: CarouselOptions(
                 height: 200.0,
                 enlargeCenterPage: true,
