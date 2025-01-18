@@ -19,6 +19,17 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
   int activeIndex = 0;
   final CarouselController _controller = CarouselController();
+  final List<String> optTitles = [
+    "Book An Appointment",
+    "Find A Doctor",
+    "View Lab Reports",
+    "Documents",
+    "Appointment List",
+    "Upload Documents",
+    "Call For Appointment",
+    "Contact Us",
+    "About Us",
+  ];
   final List<Color> optSampColors = [
     Colors.redAccent,
     Colors.blueAccent,
@@ -30,6 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Colors.lightGreenAccent,
     Colors.amberAccent,
   ];
+  final List<String> carousals = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
