@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 import 'package:hospital_ui/view/home_screen/screens/about_us.dart';
+import 'package:hospital_ui/view/home_screen/screens/appoin_list.dart';
 import 'package:hospital_ui/view/home_screen/screens/book_appoinmnt.dart';
 import 'package:hospital_ui/view/home_screen/screens/documents_screen.dart';
 import 'package:hospital_ui/view/home_screen/screens/find_doctor.dart';
@@ -69,6 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
     FindDoctorScreen(),
     AboutUsScreen(),
     DocumentsScreen(),
+    AppointmentListScreen(),
   ];
   @override
   Widget build(BuildContext context) {
