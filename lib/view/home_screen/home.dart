@@ -171,12 +171,15 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             itemCount: optTitles.length,
             itemBuilder: (context, index) {
-              return Container(
-                decoration: BoxDecoration(
-                  color: white,
-                  borderRadius: BorderRadius.circular(12),
-                  image: DecorationImage(
-                      image: AssetImage(optImges[index]), fit: BoxFit.fill),
+              return InkWell(
+                onTap: () {},
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: white,
+                    borderRadius: BorderRadius.circular(12),
+                    image: DecorationImage(
+                        image: AssetImage(optImges[index]), fit: BoxFit.fill),
+                  ),
                 ),
               );
             },
