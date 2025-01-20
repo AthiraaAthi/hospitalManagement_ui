@@ -71,6 +71,10 @@ class _HomeScreenState extends State<HomeScreen> {
     AboutUsScreen(),
     DocumentsScreen(),
     AppointmentListScreen(),
+    BookAppointment(), //temporary
+    FindDoctorScreen(), //temporary
+    AboutUsScreen(), //temporary
+    DocumentsScreen(), //temporary
   ];
   @override
   Widget build(BuildContext context) {
@@ -186,7 +190,10 @@ class _HomeScreenState extends State<HomeScreen> {
             itemCount: optTitles.length,
             itemBuilder: (context, index) {
               return InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => screens[index]));
+                },
                 child: Container(
                   decoration: BoxDecoration(
                     color: white,
