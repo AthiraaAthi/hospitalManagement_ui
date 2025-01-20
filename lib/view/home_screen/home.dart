@@ -1,3 +1,5 @@
+import 'dart:nativewrappers/_internal/vm/lib/internal_patch.dart';
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
@@ -58,6 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
     ImageConstant.contactUs,
     ImageConstant.aboutUs,
   ];
+  final List<Widget> screens = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
