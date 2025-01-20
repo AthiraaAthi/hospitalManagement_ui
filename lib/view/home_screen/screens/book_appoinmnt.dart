@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 
 class BookAppointment extends StatelessWidget {
   const BookAppointment({super.key});
@@ -6,7 +7,9 @@ class BookAppointment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: mainGreen,
+      ),
     );
   }
 }
