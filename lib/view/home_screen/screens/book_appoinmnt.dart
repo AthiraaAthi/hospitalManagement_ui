@@ -11,8 +11,7 @@ class BookAppointment extends StatelessWidget {
         backgroundColor: mainGreen,
         title: Text('Appointment',
             style: TextStyle(
-              color: white,
-            )),
+                color: white, fontSize: 18, fontWeight: FontWeight.w700)),
       ),
     );
   }
