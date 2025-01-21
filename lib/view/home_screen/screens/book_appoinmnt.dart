@@ -26,6 +26,8 @@ class _BookAppointmentState extends State<BookAppointment> {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextField(
               decoration: InputDecoration(
@@ -72,6 +74,14 @@ class _BookAppointmentState extends State<BookAppointment> {
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
               ),
             ),
+            SizedBox(
+              height: 30,
+            ),
+            Text("Available Dates",
+                style: TextStyle(
+                    color: mainGreen,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w400)),
           ],
         ),
       ),
