@@ -15,15 +15,19 @@ class BookAppointment extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 19, fontWeight: FontWeight.w600)),
       ),
-      body: Column(
-        children: [
-          TextField(
-            decoration: InputDecoration(
-              hintText: 'Select a Doctor',
-              suffixIcon: Icon(Icons.arrow_circle_down),
-            ),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'Select a Doctor',
+                suffixIcon: Icon(Icons.arrow_circle_down),
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
