@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 
-class BookAppointment extends StatelessWidget {
+class BookAppointment extends StatefulWidget {
   const BookAppointment({super.key});
 
+  @override
+  State<BookAppointment> createState() => _BookAppointmentState();
+}
+
+class _BookAppointmentState extends State<BookAppointment> {
+  final SizedBox _space = SizedBox(
+    height: 10,
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +35,8 @@ class BookAppointment extends StatelessWidget {
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
                 suffixIcon: Icon(Icons.arrow_circle_down),
               ),
-            )
+            ),
+            _space,
           ],
         ),
       ),
