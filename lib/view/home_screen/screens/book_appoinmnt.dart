@@ -8,11 +8,12 @@ class BookAppointment extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         leading: Icon(Icons.arrow_back, color: white),
         backgroundColor: mainGreen,
         title: Text('Appointment',
             style: TextStyle(
-                color: white, fontSize: 18, fontWeight: FontWeight.w700)),
+                color: white, fontSize: 19, fontWeight: FontWeight.w600)),
       ),
     );
   }
