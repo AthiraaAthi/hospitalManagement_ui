@@ -9,8 +9,8 @@ class BookAppointment extends StatefulWidget {
 }
 
 class _BookAppointmentState extends State<BookAppointment> {
-  final SizedBox _space = SizedBox(
-    height: 10,
+  final SizedBox space = SizedBox(
+    height: 15,
   );
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,15 @@ class _BookAppointmentState extends State<BookAppointment> {
                 suffixIcon: Icon(Icons.arrow_circle_down),
               ),
             ),
-            _space,
+            space,
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'First Name',
+                hintStyle:
+                    TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
+              ),
+            ),
           ],
         ),
       ),
