@@ -9,7 +9,10 @@ class BookAppointment extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: mainGreen,
-        title: Text('Appointment'),
+        title: Text('Appointment',
+            style: TextStyle(
+              color: white,
+            )),
       ),
     );
   }
