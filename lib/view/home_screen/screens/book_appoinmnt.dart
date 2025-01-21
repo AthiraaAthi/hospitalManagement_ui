@@ -23,6 +23,8 @@ class BookAppointment extends StatelessWidget {
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 hintText: 'Select a Doctor',
+                hintStyle:
+                    TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
                 suffixIcon: Icon(Icons.arrow_circle_down),
               ),
             )
