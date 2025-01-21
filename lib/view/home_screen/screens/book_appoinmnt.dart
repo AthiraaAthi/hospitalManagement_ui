@@ -49,7 +49,16 @@ class _BookAppointmentState extends State<BookAppointment> {
             TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'Second Name',
+                hintText: 'Last Name',
+                hintStyle:
+                    TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
+              ),
+            ),
+            space,
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'Email',
                 hintStyle:
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
               ),
