@@ -63,6 +63,15 @@ class _BookAppointmentState extends State<BookAppointment> {
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
               ),
             ),
+            space,
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                hintText: 'Phone',
+                hintStyle:
+                    TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
+              ),
+            ),
           ],
         ),
       ),
