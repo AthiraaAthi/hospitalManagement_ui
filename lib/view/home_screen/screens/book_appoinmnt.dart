@@ -94,6 +94,7 @@ class _BookAppointmentState extends State<BookAppointment> {
                     color: mainGreen,
                     fontSize: 16,
                     fontWeight: FontWeight.w400)),
+            space,
           ],
         ),
       ),
