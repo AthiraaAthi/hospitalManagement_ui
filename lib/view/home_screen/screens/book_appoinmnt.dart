@@ -97,8 +97,9 @@ class _BookAppointmentState extends State<BookAppointment> {
             space,
             TextField(
               maxLines: 5,
+              textAlign: TextAlign.center,
               decoration: InputDecoration(
-                hintText: "Enter Your Problem",
+                labelText: "Enter Your Problem",
                 border: OutlineInputBorder(),
               ),
             )
