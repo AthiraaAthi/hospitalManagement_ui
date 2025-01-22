@@ -96,6 +96,7 @@ class _BookAppointmentState extends State<BookAppointment> {
                     fontWeight: FontWeight.w400)),
             space,
             TextField(
+              maxLines: 4,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
               ),
