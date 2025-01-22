@@ -35,7 +35,8 @@ class _BookAppointmentState extends State<BookAppointment> {
                 hintText: 'Select a Doctor',
                 hintStyle:
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
-                suffixIcon: Icon(Icons.arrow_circle_down),
+                suffixIcon:
+                    InkWell(onTap: () {}, child: Icon(Icons.arrow_circle_down)),
               ),
             ),
             space,
