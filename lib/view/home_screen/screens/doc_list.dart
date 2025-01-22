@@ -11,7 +11,9 @@ class DoctorListScreen extends StatelessWidget {
         backgroundColor: mainGreen,
         centerTitle: true,
         leading: Icon(Icons.arrow_back),
-        title: Text('Doctor List'),
+        title: Text('Doctor List',
+            style: TextStyle(
+                color: white, fontSize: 19, fontWeight: FontWeight.w600)),
       ),
     );
   }
