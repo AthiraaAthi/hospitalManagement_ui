@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 
-class FindDoctorScreen extends StatelessWidget {
-  const FindDoctorScreen({super.key});
+class DoctorListScreen extends StatelessWidget {
+  const DoctorListScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
