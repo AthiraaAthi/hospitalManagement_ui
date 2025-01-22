@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
+import 'package:hospital_ui/view/home_screen/screens/find_doctor.dart';
 
 class BookAppointment extends StatefulWidget {
   const BookAppointment({super.key});
@@ -35,8 +36,14 @@ class _BookAppointmentState extends State<BookAppointment> {
                 hintText: 'Select a Doctor',
                 hintStyle:
                     TextStyle(color: mainGreen, fontWeight: FontWeight.w400),
-                suffixIcon:
-                    InkWell(onTap: () {}, child: Icon(Icons.arrow_circle_down)),
+                suffixIcon: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => FindDoctorScreen()));
+                    },
+                    child: Icon(Icons.arrow_circle_down)),
               ),
             ),
             space,
