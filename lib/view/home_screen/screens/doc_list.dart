@@ -7,6 +7,7 @@ class FindDoctorScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.arrow_back),
         title: Text('Doctor List'),
       ),
     );
