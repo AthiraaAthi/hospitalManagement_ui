@@ -10,7 +10,10 @@ class DoctorListScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: mainGreen,
         centerTitle: true,
-        leading: Icon(Icons.arrow_back),
+        leading: Icon(
+          Icons.arrow_back,
+          color: white,
+        ),
         title: Text('Doctor List',
             style: TextStyle(
                 color: white, fontSize: 19, fontWeight: FontWeight.w600)),
