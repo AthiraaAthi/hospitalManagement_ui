@@ -63,6 +63,10 @@ class DoctorListScreen extends StatelessWidget {
                                 ),
                               ),
                             ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [],
+                            )
                           ],
                         )
                       ],
