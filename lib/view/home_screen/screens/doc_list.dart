@@ -73,6 +73,13 @@ class DoctorListScreen extends StatelessWidget {
                                       fontSize: 18,
                                       fontWeight: FontWeight.w600),
                                 ),
+                                Text(
+                                  'Heart Specialist',
+                                  style: TextStyle(
+                                      color: black,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w400),
+                                ),
                               ],
                             )
                           ],
