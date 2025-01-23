@@ -39,7 +39,11 @@ class DoctorListScreen extends StatelessWidget {
               itemCount: 10,
               itemBuilder: (context, index) {
                 return Card(
-                  child: ListTile(),
+                  child: ListTile(
+                      leading: Container(
+                    height: 70,
+                    width: 70,
+                  )),
                 );
               },
             ),
