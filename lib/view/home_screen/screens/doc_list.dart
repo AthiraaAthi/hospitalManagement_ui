@@ -22,6 +22,14 @@ class DoctorListScreen extends StatelessWidget {
         children: [
           Container(
             padding: EdgeInsets.all(10),
+            child: TextField(
+              decoration: InputDecoration(
+                hintText: 'Doctors, clinics, lab',
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+            ),
           ),
         ],
       ),
