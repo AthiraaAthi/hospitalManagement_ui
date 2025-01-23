@@ -31,6 +31,17 @@ class DoctorListScreen extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(
+            height: 50,
+          ),
+          Expanded(
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Card();
+              },
+            ),
+          ),
         ],
       ),
     );
