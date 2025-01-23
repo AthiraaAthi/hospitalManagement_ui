@@ -49,7 +49,11 @@ class DoctorListScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Column(
-                      children: [],
+                      children: [
+                        Row(
+                          children: [],
+                        )
+                      ],
                     ),
                   ),
                 );
