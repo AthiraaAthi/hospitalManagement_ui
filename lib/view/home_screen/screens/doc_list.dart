@@ -32,19 +32,22 @@ class DoctorListScreen extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 50,
+            height: 40,
           ),
           Expanded(
             child: ListView.builder(
               itemCount: 10,
               itemBuilder: (context, index) {
-                return Card(
-                  child: ListTile(
-                      leading: Container(
-                    height: 70,
+                return Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 130,
                     width: 70,
-                    color: mainGreen,
-                  )),
+                    decoration: BoxDecoration(
+                      color: mainGreen,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
                 );
               },
             ),
