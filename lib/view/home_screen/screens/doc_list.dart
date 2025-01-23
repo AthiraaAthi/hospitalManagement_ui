@@ -18,7 +18,9 @@ class DoctorListScreen extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 19, fontWeight: FontWeight.w600)),
       ),
-      body: Column(),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
