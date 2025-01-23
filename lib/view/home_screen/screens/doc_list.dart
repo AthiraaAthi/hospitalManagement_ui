@@ -80,6 +80,13 @@ class DoctorListScreen extends StatelessWidget {
                                       fontSize: 16,
                                       fontWeight: FontWeight.w400),
                                 ),
+                                Text(
+                                  'MBBS, MD - Cardiology',
+                                  style: TextStyle(
+                                      color: black,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w400),
+                                ),
                               ],
                             )
                           ],
