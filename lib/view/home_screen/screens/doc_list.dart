@@ -32,7 +32,7 @@ class DoctorListScreen extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 40,
+            height: 30,
           ),
           Expanded(
             child: ListView.builder(
@@ -41,11 +41,15 @@ class DoctorListScreen extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                    height: 130,
+                    height: 150,
                     width: 70,
                     decoration: BoxDecoration(
-                      color: mainGreen,
+                      color: white,
+                      border: Border.all(color: Colors.black),
                       borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Column(
+                      children: [],
                     ),
                   ),
                 );
