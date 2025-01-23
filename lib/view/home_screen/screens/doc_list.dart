@@ -43,6 +43,7 @@ class DoctorListScreen extends StatelessWidget {
                       leading: Container(
                     height: 70,
                     width: 70,
+                    color: mainGreen,
                   )),
                 );
               },
