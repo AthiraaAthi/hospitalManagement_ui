@@ -65,7 +65,15 @@ class DoctorListScreen extends StatelessWidget {
                             ),
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [],
+                              children: [
+                                Text(
+                                  'Dr. John Doe',
+                                  style: TextStyle(
+                                      color: black,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w600),
+                                ),
+                              ],
                             )
                           ],
                         )
