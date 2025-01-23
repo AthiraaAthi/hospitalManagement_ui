@@ -20,7 +20,9 @@ class DoctorListScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Container(),
+          Container(
+            padding: EdgeInsets.all(10),
+          ),
         ],
       ),
     );
