@@ -51,7 +51,19 @@ class DoctorListScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Row(
-                          children: [],
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Container(
+                                height: 100,
+                                width: 100,
+                                decoration: BoxDecoration(
+                                  color: mainGreen,
+                                  borderRadius: BorderRadius.circular(10),
+                                ),
+                              ),
+                            ),
+                          ],
                         )
                       ],
                     ),
