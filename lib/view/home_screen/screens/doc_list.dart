@@ -12,6 +12,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
   List<String> docNames = [];
   List<String> position = [];
   List<String> docSpeciality = [];
+  List<String> docQualification = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
