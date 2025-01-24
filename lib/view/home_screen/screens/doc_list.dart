@@ -32,6 +32,10 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
   ];
   List<String> docQualification = [
     "MD,M.PHIL,PHD",
+    "MD,M.PHIL,PHD",
+    "GYNAECOLOGY",
+    "MD,M.PHIL,PHD",
+    "MD,M.PHIL,PHD",
   ];
   @override
   Widget build(BuildContext context) {
