@@ -16,7 +16,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "Dr. Josh Chen",
     "Dr.Christain Harper",
   ];
-  List<String> position = [];
+  List<String> position = [
+    "Assistant Professor",
+  ];
   List<String> docSpeciality = [];
   List<String> docQualification = [];
   @override
