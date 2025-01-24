@@ -30,7 +30,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "Brain Tumor",
     "Neurologist",
   ];
-  List<String> docQualification = [];
+  List<String> docQualification = [
+    "MD,M.PHIL,PHD",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
