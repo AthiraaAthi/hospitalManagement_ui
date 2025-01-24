@@ -9,7 +9,9 @@ class DoctorListScreen extends StatefulWidget {
 }
 
 class _DoctorListScreenState extends State<DoctorListScreen> {
-  List<String> docNames = [];
+  List<String> docNames = [
+    "Dr. John Doe",
+  ];
   List<String> position = [];
   List<String> docSpeciality = [];
   List<String> docQualification = [];
