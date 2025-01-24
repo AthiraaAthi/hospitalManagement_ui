@@ -9,6 +9,7 @@ class DoctorListScreen extends StatefulWidget {
 }
 
 class _DoctorListScreenState extends State<DoctorListScreen> {
+  List<String> docNames = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
