@@ -24,7 +24,11 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "Assistant Professor",
   ];
   List<String> docSpeciality = [
+    "Neuromedicine",
     "Neurosurgeon",
+    "Gynae & Obs",
+    "Brain Tumor",
+    "Neurologist",
   ];
   List<String> docQualification = [];
   @override
