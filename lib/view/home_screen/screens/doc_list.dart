@@ -107,7 +107,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                       fontWeight: FontWeight.w600),
                                 ),
                                 Text(
-                                  'Heart Specialist',
+                                  docSpeciality[index],
                                   style: TextStyle(
                                       color: black,
                                       fontSize: 16,
