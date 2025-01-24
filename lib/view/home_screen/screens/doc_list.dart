@@ -100,7 +100,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Dr. John Doe',
+                                  docNames[index],
                                   style: TextStyle(
                                       color: black,
                                       fontSize: 18,
