@@ -69,7 +69,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
           ),
           Expanded(
             child: ListView.builder(
-              itemCount: 10,
+              itemCount: docNames.length,
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
