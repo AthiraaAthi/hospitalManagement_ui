@@ -10,6 +10,7 @@ class DoctorListScreen extends StatefulWidget {
 
 class _DoctorListScreenState extends State<DoctorListScreen> {
   List<String> docNames = [];
+  List<String> position = [];
   List<String> docSpeciality = [];
   @override
   Widget build(BuildContext context) {
