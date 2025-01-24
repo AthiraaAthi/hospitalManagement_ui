@@ -105,7 +105,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                       color: black,
                                       fontSize: 18,
                                       fontWeight: FontWeight.w600),
-                                ),
+                                ), //
                                 Text(
                                   docSpeciality[index],
                                   style: TextStyle(
@@ -114,7 +114,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                       fontWeight: FontWeight.w400),
                                 ),
                                 Text(
-                                  'MBBS, MD - Cardiology',
+                                  docQualification[index],
                                   style: TextStyle(
                                       color: black,
                                       fontSize: 16,
