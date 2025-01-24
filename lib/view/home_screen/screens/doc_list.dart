@@ -23,7 +23,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "Assistant Professor",
     "Assistant Professor",
   ];
-  List<String> docSpeciality = [];
+  List<String> docSpeciality = [
+    "Neurosurgeon",
+  ];
   List<String> docQualification = [];
   @override
   Widget build(BuildContext context) {
