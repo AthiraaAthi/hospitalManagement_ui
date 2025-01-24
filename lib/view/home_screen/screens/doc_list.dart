@@ -18,6 +18,10 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
   ];
   List<String> position = [
     "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
   ];
   List<String> docSpeciality = [];
   List<String> docQualification = [];
