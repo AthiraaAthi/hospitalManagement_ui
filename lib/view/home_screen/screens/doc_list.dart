@@ -156,6 +156,10 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                           fontWeight: FontWeight.w500))),
                               ElevatedButton(
                                   style: ButtonStyle(
+                                      shape: WidgetStatePropertyAll(
+                                          RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(10))),
                                       backgroundColor:
                                           WidgetStatePropertyAll(mainGreen)),
                                   onPressed: () {},
