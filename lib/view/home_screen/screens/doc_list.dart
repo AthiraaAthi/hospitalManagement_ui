@@ -138,7 +138,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                         Row(
                           children: [
                             ElevatedButton(
-                                onPressed: () {}, child: Text("View Profile"))
+                                style: ButtonStyle(),
+                                onPressed: () {},
+                                child: Text("View Profile"))
                           ],
                         )
                       ],
