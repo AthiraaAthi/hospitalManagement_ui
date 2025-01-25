@@ -165,7 +165,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                   onPressed: () {},
                                   child: Text("Appointment",
                                       style: TextStyle(
-                                          color: black,
+                                          color: white,
                                           fontSize: 14,
                                           fontWeight: FontWeight.w500))),
                             ],
