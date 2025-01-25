@@ -44,7 +44,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
         backgroundColor: mainGreen,
         centerTitle: true,
         leading: InkWell(
-          onTap: () {},
+          onTap: () {
+            Navigator.pop(context);
+          },
           child: Icon(
             Icons.arrow_back,
             color: white,
