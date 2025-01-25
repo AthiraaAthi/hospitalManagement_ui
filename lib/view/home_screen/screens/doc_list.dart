@@ -43,9 +43,12 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
       appBar: AppBar(
         backgroundColor: mainGreen,
         centerTitle: true,
-        leading: Icon(
-          Icons.arrow_back,
-          color: white,
+        leading: InkWell(
+          onTap: () {},
+          child: Icon(
+            Icons.arrow_back,
+            color: white,
+          ),
         ),
         title: Text('Doctor List',
             style: TextStyle(
@@ -75,7 +78,6 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     height: 150,
-                    width: 70,
                     decoration: BoxDecoration(
                       color: white,
                       border: Border.all(color: Colors.black),
