@@ -155,6 +155,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                           fontSize: 14,
                                           fontWeight: FontWeight.w500))),
                               ElevatedButton(
+                                  style: ButtonStyle(
+                                      backgroundColor:
+                                          WidgetStatePropertyAll(mainGreen)),
                                   onPressed: () {},
                                   child: Text("Appointment",
                                       style: TextStyle(
