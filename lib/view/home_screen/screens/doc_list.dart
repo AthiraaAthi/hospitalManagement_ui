@@ -105,7 +105,14 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                       color: black,
                                       fontSize: 18,
                                       fontWeight: FontWeight.w600),
-                                ), //
+                                ),
+                                Text(
+                                  position[index],
+                                  style: TextStyle(
+                                      color: black,
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w400),
+                                ),
                                 Text(
                                   docSpeciality[index],
                                   style: TextStyle(
