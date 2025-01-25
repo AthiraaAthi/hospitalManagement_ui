@@ -138,7 +138,12 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                         Row(
                           children: [
                             ElevatedButton(
-                                style: ButtonStyle(),
+                                style: ButtonStyle(
+                                    shape: WidgetStatePropertyAll(
+                                        RoundedRectangleBorder()),
+                                    backgroundColor: WidgetStatePropertyAll(
+                                        const Color.fromARGB(
+                                            255, 219, 217, 217))),
                                 onPressed: () {},
                                 child: Text("View Profile"))
                           ],
