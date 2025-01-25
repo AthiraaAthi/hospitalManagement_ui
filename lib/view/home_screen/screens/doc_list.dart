@@ -138,6 +138,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                         Padding(
                           padding: const EdgeInsets.all(15),
                           child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               ElevatedButton(
                                   style: ButtonStyle(
