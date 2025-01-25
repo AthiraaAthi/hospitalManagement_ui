@@ -149,7 +149,11 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                           const Color.fromARGB(
                                               255, 219, 217, 217))),
                                   onPressed: () {},
-                                  child: Text("View Profile"))
+                                  child: Text("View Profile",
+                                      style: TextStyle(
+                                          color: black,
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.w500))),
                             ],
                           ),
                         )
