@@ -79,7 +79,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                    height: 150,
+                    height: 200,
                     decoration: BoxDecoration(
                       color: white,
                       border: Border.all(color: Colors.black),
@@ -134,6 +134,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                               ],
                             )
                           ],
+                        ),
+                        Row(
+                          children: [],
                         )
                       ],
                     ),
