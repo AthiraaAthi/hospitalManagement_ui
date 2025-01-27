@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/view/home_screen/screens/doc_list.dart';
-import 'package:hospital_ui/view/home_screen/screens/find_doctor.dart';
 
 class BookAppointment extends StatefulWidget {
   const BookAppointment({super.key});
@@ -19,7 +18,7 @@ class _BookAppointmentState extends State<BookAppointment> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        leading: Icon(Icons.arrow_back, color: white),
+        leading: InkWell(child: Icon(Icons.arrow_back, color: white)),
         backgroundColor: mainGreen,
         title: Text('Appointment',
             style: TextStyle(
