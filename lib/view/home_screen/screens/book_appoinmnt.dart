@@ -18,7 +18,8 @@ class _BookAppointmentState extends State<BookAppointment> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        leading: InkWell(child: Icon(Icons.arrow_back, color: white)),
+        leading:
+            InkWell(onTap: () {}, child: Icon(Icons.arrow_back, color: white)),
         backgroundColor: mainGreen,
         title: Text('Appointment',
             style: TextStyle(
