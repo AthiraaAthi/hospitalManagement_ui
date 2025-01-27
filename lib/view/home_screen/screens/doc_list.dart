@@ -41,6 +41,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
   List<String> docImgs = [
     ImageConstant.ryle,
     ImageConstant.alex,
+    ImageConstant.rhys,
   ];
   @override
   Widget build(BuildContext context) {
