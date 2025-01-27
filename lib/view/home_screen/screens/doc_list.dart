@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
+import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class DoctorListScreen extends StatefulWidget {
   const DoctorListScreen({super.key});
@@ -37,7 +38,9 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "MD,M.PHIL,PHD",
     "MD,M.PHIL,PHD",
   ];
-  List<String> docImgs = [];
+  List<String> docImgs = [
+    ImageConstant.ryle,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
