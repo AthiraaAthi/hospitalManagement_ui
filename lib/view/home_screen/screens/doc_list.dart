@@ -37,6 +37,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
     "MD,M.PHIL,PHD",
     "MD,M.PHIL,PHD",
   ];
+  List<String> docImgs = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
