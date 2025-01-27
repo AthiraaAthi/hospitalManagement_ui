@@ -104,7 +104,7 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                 width: 100,
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
-                                    image: AssetImage('assets/images/ryle.jpg'),
+                                    image: AssetImage(docImgs[index]),
                                     fit: BoxFit.cover,
                                   ),
                                   color: mainGreen,
