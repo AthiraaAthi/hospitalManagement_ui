@@ -15,4 +15,5 @@ class ImageConstant {
   static String alex = "assets\images\alex.jpg";
   static String rhys = "assets\images\rhys.jpg";
   static String josh = "assets\images\josh.jpg";
+  static String christain = "assets\images\christain.jpg";
 }
