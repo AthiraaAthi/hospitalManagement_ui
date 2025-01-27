@@ -95,6 +95,10 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
                                 height: 100,
                                 width: 100,
                                 decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage('assets/images/ryle.jpg'),
+                                    fit: BoxFit.cover,
+                                  ),
                                   color: mainGreen,
                                   borderRadius: BorderRadius.circular(10),
                                 ),
