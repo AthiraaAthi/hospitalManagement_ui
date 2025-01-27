@@ -11,4 +11,5 @@ class ImageConstant {
   static String callForAppoins = "assets/images/CallForAppoin.png";
   static String contactUs = "assets/images/ContactUs.png";
   static String aboutUs = "assets/images/AboutUs.png";
+  static String ryle = "assets/images/ryle.jpg";
 }
