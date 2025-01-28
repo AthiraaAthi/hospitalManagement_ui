@@ -62,6 +62,9 @@ class AboutUsScreen extends StatelessWidget {
           ],
         ),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
