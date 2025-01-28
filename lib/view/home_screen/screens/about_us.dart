@@ -10,6 +10,11 @@ class AboutUsScreen extends StatelessWidget {
       backgroundColor: white,
       appBar: AppBar(
         backgroundColor: white,
+        toolbarHeight: 100,
+        leading: Icon(
+          Icons.menu,
+          size: 30,
+        ),
       ),
     );
   }
