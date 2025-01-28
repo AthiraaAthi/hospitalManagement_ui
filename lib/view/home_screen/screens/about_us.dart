@@ -16,6 +16,10 @@ class AboutUsScreen extends StatelessWidget {
           size: 30,
           color: mainGreen,
         ),
+        centerTitle: true,
+        title: Row(
+          children: [],
+        ),
       ),
     );
   }
