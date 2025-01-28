@@ -8,6 +8,7 @@ class AboutUsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: white,
+      appBar: AppBar(),
     );
   }
 }
