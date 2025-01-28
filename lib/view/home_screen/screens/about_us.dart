@@ -63,7 +63,13 @@ class AboutUsScreen extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 200,
+            width: double.infinity,
+            decoration: BoxDecoration(),
+          ),
+        ],
       ),
     );
   }
