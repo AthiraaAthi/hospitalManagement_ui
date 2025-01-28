@@ -30,6 +30,9 @@ class AboutUsScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Column(
+              children: [],
+            ),
           ],
         ),
       ),
