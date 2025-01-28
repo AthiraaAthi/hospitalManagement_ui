@@ -31,7 +31,26 @@ class AboutUsScreen extends StatelessWidget {
               ),
             ),
             Column(
-              children: [],
+              children: [
+                RichText(
+                    text: TextSpan(
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                  children: [
+                    TextSpan(
+                      text: "HOS",
+                      style: TextStyle(color: black),
+                    ),
+                    TextSpan(
+                      text: "PI",
+                      style: TextStyle(color: mainGreen),
+                    ),
+                    TextSpan(
+                      text: "TAL",
+                      style: TextStyle(color: black),
+                    ),
+                  ],
+                )),
+              ],
             ),
           ],
         ),
