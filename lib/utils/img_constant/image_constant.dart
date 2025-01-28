@@ -16,4 +16,6 @@ class ImageConstant {
   static String rhys = "assets/images/rhys.jpg";
   static String josh = "assets/images/josh.jpg";
   static String christain = "assets/images/christain.jpg";
+  static String aboutUsDoc = "assets/images/aboutUs_doc.png";
+  static String operating = "assets/images/operating.png";
 }
