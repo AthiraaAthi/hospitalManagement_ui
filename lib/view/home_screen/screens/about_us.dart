@@ -73,6 +73,8 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               height: 200,
@@ -83,6 +85,14 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   image: AssetImage(ImageConstant.aboutUsDoc),
                   fit: BoxFit.cover,
                 ),
+              ),
+            ),
+            space,
+            Text(
+              "Pie Chart",
+              style: TextStyle(
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
               ),
             ),
           ],
