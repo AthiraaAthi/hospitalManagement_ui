@@ -14,6 +14,7 @@ class AboutUsScreen extends StatelessWidget {
         leading: Icon(
           Icons.menu,
           size: 30,
+          color: mainGreen,
         ),
       ),
     );
