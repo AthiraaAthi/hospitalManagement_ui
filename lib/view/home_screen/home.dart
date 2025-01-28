@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
     BookAppointment(), //temporary
     DoctorListScreen(), //temporary
     AboutUsScreen(), //temporary
-    DocumentsScreen(), //temporary
+    AboutUsScreen(), //temporary
   ];
   @override
   Widget build(BuildContext context) {
