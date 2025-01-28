@@ -2,9 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
-class AboutUsScreen extends StatelessWidget {
+class AboutUsScreen extends StatefulWidget {
   const AboutUsScreen({super.key});
 
+  @override
+  State<AboutUsScreen> createState() => _AboutUsScreenState();
+}
+
+class _AboutUsScreenState extends State<AboutUsScreen> {
+  final SizedBox space = SizedBox(
+    height: 20,
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
