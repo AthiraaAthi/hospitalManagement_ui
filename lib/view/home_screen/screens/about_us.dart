@@ -89,7 +89,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
             ),
             space,
             Text(
-              "Pie Chart",
+              "Pie Chart Example",
               style: TextStyle(
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
