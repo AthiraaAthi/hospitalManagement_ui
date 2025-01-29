@@ -115,7 +115,8 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                 ),
                 Text("2025-01-29", style: TextStyle(fontSize: 12)),
               ],
-            )
+            ),
+            Container(),
           ],
         ),
       ),
