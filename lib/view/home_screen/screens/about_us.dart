@@ -96,7 +96,10 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
               ),
             ),
             space,
-            Text("Where does it come from?"),
+            Text(
+              "Where does it come from?",
+              style: TextStyle(),
+            ),
           ],
         ),
       ),
