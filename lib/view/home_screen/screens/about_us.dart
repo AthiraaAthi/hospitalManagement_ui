@@ -70,64 +70,67 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
           ],
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                image: DecorationImage(
-                  image: AssetImage(ImageConstant.aboutUsDoc),
-                  fit: BoxFit.cover,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                height: 200,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                    image: AssetImage(ImageConstant.aboutUsDoc),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-            ),
-            space,
-            Text(
-              "Pie Chart Example",
-              style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            space,
-            Text(
-              "Where does it come from?",
-              style: TextStyle(fontSize: 15),
-            ),
-            space,
-            Text(
-                "Contrary, to popular belief. Loreum Ipsum is not simply random text. It has roots on a belief of .........................."),
-            space,
-            Row(
-              children: [
-                Icon(
-                  Icons.alarm_sharp,
-                  size: 20,
-                ),
-                SizedBox(
-                  width: 10,
-                ),
-                Text("2025-01-29", style: TextStyle(fontSize: 12)),
-              ],
-            ),
-            Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                image: DecorationImage(
-                  image: AssetImage(ImageConstant.operating),
-                  fit: BoxFit.cover,
+              space,
+              Text(
+                "Pie Chart Example",
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
-            ),
-          ],
+              space,
+              Text(
+                "Where does it come from?",
+                style: TextStyle(fontSize: 15),
+              ),
+              space,
+              Text(
+                  "Contrary, to popular belief. Loreum Ipsum is not simply random text. It has roots on a belief of .........................."),
+              space,
+              Row(
+                children: [
+                  Icon(
+                    Icons.alarm_sharp,
+                    size: 20,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text("2025-01-29", style: TextStyle(fontSize: 12)),
+                ],
+              ),
+              space,
+              Container(
+                height: 200,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                    image: AssetImage(ImageConstant.operating),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
