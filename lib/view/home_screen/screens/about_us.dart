@@ -119,7 +119,13 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
             Container(
               height: 200,
               width: double.infinity,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                image: DecorationImage(
+                  image: AssetImage(ImageConstant.operating),
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
           ],
         ),
