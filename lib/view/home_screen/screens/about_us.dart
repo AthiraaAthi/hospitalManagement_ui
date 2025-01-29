@@ -137,6 +137,11 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              space,
+              Text(
+                "Where does it come from?",
+                style: TextStyle(fontSize: 15),
+              ),
             ],
           ),
         ),
