@@ -100,6 +100,8 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
               "Where does it come from?",
               style: TextStyle(fontSize: 15),
             ),
+            Text(
+                "Contrary, to popular belief. Loreum Ipsum is not simply random text. It has roots on a belief of ..........................")
           ],
         ),
       ),
