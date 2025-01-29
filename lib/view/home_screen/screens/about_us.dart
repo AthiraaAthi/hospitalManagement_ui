@@ -119,6 +119,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
             Container(
               height: 200,
               width: double.infinity,
+              decoration: BoxDecoration(),
             ),
           ],
         ),
