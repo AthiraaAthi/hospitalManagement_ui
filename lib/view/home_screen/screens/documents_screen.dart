@@ -23,6 +23,7 @@ class DocumentsScreen extends StatelessWidget {
           Container(
             height: 200,
             width: double.infinity,
+            decoration: BoxDecoration(border: Border.all(color: black)),
           )
         ],
       ),
