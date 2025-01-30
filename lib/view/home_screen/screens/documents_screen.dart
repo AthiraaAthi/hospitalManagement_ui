@@ -27,6 +27,9 @@ class DocumentsScreen extends StatelessWidget {
               height: 200,
               width: double.infinity,
               decoration: BoxDecoration(border: Border.all(color: black)),
+              child: Column(
+                children: [],
+              ),
             )
           ],
         ),
