@@ -19,7 +19,7 @@ class DocumentsScreen extends StatelessWidget {
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
       body: Column(
-        children: [],
+        children: [Container()],
       ),
     );
   }
