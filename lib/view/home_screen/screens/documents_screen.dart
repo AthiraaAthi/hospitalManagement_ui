@@ -14,9 +14,9 @@ class DocumentsScreen extends StatelessWidget {
             },
             child: Icon(Icons.arrow_back, color: white)),
         backgroundColor: mainGreen,
-        title: Text(
-          'Documents',
-        ),
+        title: Text('Documents',
+            style: TextStyle(
+                color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
     );
   }
