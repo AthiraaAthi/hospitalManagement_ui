@@ -18,6 +18,9 @@ class DocumentsScreen extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
