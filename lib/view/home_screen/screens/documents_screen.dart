@@ -33,9 +33,18 @@ class DocumentsScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Container(
-                    height: 40,
+                    height: 30,
                     width: 300,
-                    color: mainGreen,
+                    decoration: BoxDecoration(
+                      color: mainGreen,
+                    ),
+                    child: Center(
+                      child: Text("Patient ID :RCVKAJNAHNAJNA",
+                          style: TextStyle(
+                              color: white,
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500)),
+                    ),
                   )
                 ],
               ),
