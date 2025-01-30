@@ -18,14 +18,18 @@ class DocumentsScreen extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 200,
-            width: double.infinity,
-            decoration: BoxDecoration(border: Border.all(color: black)),
-          )
-        ],
+      body: Padding(
+        padding:
+            const EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 30),
+        child: Column(
+          children: [
+            Container(
+              height: 200,
+              width: double.infinity,
+              decoration: BoxDecoration(border: Border.all(color: black)),
+            )
+          ],
+        ),
       ),
     );
   }
