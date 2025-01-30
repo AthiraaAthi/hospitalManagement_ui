@@ -20,8 +20,7 @@ class _BookAppointmentState extends State<BookAppointment> {
         centerTitle: true,
         leading: InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DoctorListScreen()));
+              Navigator.pop(context);
             },
             child: Icon(Icons.arrow_back, color: white)),
         backgroundColor: mainGreen,
