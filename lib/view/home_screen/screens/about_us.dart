@@ -152,6 +152,10 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                     Icons.alarm_sharp,
                     size: 20,
                   ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text("2025-01-29", style: TextStyle(fontSize: 12)),
                 ],
               )
             ],
