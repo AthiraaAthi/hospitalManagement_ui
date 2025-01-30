@@ -147,7 +147,12 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
                   "Contrary, to popular belief. Loreum Ipsum is not simply random text. It has roots on a belief of .........................."),
               space,
               Row(
-                children: [],
+                children: [
+                  Icon(
+                    Icons.alarm_sharp,
+                    size: 20,
+                  ),
+                ],
               )
             ],
           ),
