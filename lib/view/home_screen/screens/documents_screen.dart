@@ -86,7 +86,7 @@ class DocumentsScreen extends StatelessWidget {
                           color: mainGreen,
                         ),
                         child: Center(
-                          child: Text("Diagnosis",
+                          child: Text("view Profile",
                               style: TextStyle(
                                   color: white,
                                   fontSize: 13,
