@@ -88,6 +88,7 @@ class DocumentsScreen extends StatelessWidget {
                         width: 100,
                         decoration: BoxDecoration(
                           color: black,
+                          borderRadius: BorderRadius.circular(5),
                         ),
                         child: Center(
                           child: Text("view Profile",
