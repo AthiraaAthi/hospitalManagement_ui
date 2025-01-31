@@ -103,6 +103,7 @@ class DocumentsScreen extends StatelessWidget {
                         width: 100,
                         decoration: BoxDecoration(
                           color: mainGreen,
+                          borderRadius: BorderRadius.circular(5),
                         ),
                         child: Center(
                           child: Text("Edit",
@@ -117,6 +118,7 @@ class DocumentsScreen extends StatelessWidget {
                         width: 100,
                         decoration: BoxDecoration(
                           color: Colors.red,
+                          borderRadius: BorderRadius.circular(5),
                         ),
                         child: Center(
                           child: Text("Delete",
