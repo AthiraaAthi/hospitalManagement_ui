@@ -77,6 +77,9 @@ class DocumentsScreen extends StatelessWidget {
                         fontSize: 15,
                         fontWeight: FontWeight.w500),
                   ),
+                  SizedBox(
+                    height: 20,
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
