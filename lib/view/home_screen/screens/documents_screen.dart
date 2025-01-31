@@ -78,6 +78,7 @@ class DocumentsScreen extends StatelessWidget {
                         fontWeight: FontWeight.w500),
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
                         height: 40,
