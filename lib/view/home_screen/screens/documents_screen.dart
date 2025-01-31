@@ -107,7 +107,10 @@ class DocumentsScreen extends StatelessWidget {
                                   fontWeight: FontWeight.w500)),
                         ),
                       ),
-                      Container()
+                      Container(
+                        height: 40,
+                        width: 100,
+                      )
                     ],
                   )
                 ],
