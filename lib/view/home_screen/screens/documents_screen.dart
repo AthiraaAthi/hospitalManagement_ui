@@ -111,7 +111,14 @@ class DocumentsScreen extends StatelessWidget {
                         height: 40,
                         width: 100,
                         decoration: BoxDecoration(
-                          color: mainGreen,
+                          color: Colors.red,
+                        ),
+                        child: Center(
+                          child: Text("Delete",
+                              style: TextStyle(
+                                  color: white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500)),
                         ),
                       )
                     ],
