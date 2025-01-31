@@ -100,13 +100,14 @@ class DocumentsScreen extends StatelessWidget {
                           color: mainGreen,
                         ),
                         child: Center(
-                          child: Text("view Profile",
+                          child: Text("Edit",
                               style: TextStyle(
                                   color: white,
                                   fontSize: 13,
                                   fontWeight: FontWeight.w500)),
                         ),
                       ),
+                      Container()
                     ],
                   )
                 ],
