@@ -60,7 +60,14 @@ class DocumentsScreen extends StatelessWidget {
                         color: Colors.grey,
                         fontSize: 15,
                         fontWeight: FontWeight.w500),
-                  )
+                  ),
+                  Text(
+                    "Date : 31-01-2025",
+                    style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500),
+                  ),
                 ],
               ),
             )
