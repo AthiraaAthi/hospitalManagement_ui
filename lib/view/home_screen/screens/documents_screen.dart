@@ -78,7 +78,22 @@ class DocumentsScreen extends StatelessWidget {
                         fontWeight: FontWeight.w500),
                   ),
                   Row(
-                    children: [],
+                    children: [
+                      Container(
+                        height: 40,
+                        width: 100,
+                        decoration: BoxDecoration(
+                          color: mainGreen,
+                        ),
+                        child: Center(
+                          child: Text("Diagnosis",
+                              style: TextStyle(
+                                  color: white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500)),
+                        ),
+                      ),
+                    ],
                   )
                 ],
               ),
