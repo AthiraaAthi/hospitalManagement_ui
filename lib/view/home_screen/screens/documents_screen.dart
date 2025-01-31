@@ -45,7 +45,15 @@ class DocumentsScreen extends StatelessWidget {
                               fontSize: 13,
                               fontWeight: FontWeight.w500)),
                     ),
-                  )
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text("Dr.Ryle Kincaid",
+                      style: TextStyle(
+                          color: black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w500)),
                 ],
               ),
             )
