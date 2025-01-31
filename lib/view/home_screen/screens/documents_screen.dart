@@ -19,15 +19,17 @@ class DocumentsScreen extends StatelessWidget {
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
       body: Padding(
-        padding:
-            const EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 30),
+        padding: const EdgeInsets.all(16),
         child: Column(
           children: [
             Container(
-              height: 200,
+              padding: EdgeInsets.all(10),
+              height: 250,
               width: double.infinity,
               decoration: BoxDecoration(border: Border.all(color: black)),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
                     height: 10,
