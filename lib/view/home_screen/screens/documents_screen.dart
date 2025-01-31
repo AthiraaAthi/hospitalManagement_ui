@@ -68,6 +68,13 @@ class DocumentsScreen extends StatelessWidget {
                         fontSize: 15,
                         fontWeight: FontWeight.w500),
                   ),
+                  Text(
+                    "Updated by : Patient",
+                    style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500),
+                  ),
                 ],
               ),
             )
