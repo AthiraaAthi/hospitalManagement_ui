@@ -54,6 +54,13 @@ class DocumentsScreen extends StatelessWidget {
                           color: black,
                           fontSize: 20,
                           fontWeight: FontWeight.w500)),
+                  Text(
+                    "Assistant Professor",
+                    style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500),
+                  )
                 ],
               ),
             )
