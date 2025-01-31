@@ -110,6 +110,9 @@ class DocumentsScreen extends StatelessWidget {
                       Container(
                         height: 40,
                         width: 100,
+                        decoration: BoxDecoration(
+                          color: mainGreen,
+                        ),
                       )
                     ],
                   )
