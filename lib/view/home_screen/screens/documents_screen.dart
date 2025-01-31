@@ -83,6 +83,20 @@ class DocumentsScreen extends StatelessWidget {
                         height: 40,
                         width: 100,
                         decoration: BoxDecoration(
+                          color: black,
+                        ),
+                        child: Center(
+                          child: Text("view Profile",
+                              style: TextStyle(
+                                  color: white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500)),
+                        ),
+                      ),
+                      Container(
+                        height: 40,
+                        width: 100,
+                        decoration: BoxDecoration(
                           color: mainGreen,
                         ),
                         child: Center(
