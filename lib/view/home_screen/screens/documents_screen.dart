@@ -13,6 +13,8 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
   List<String> patientIds = [];
   List<String> designations = [];
   List<String> dates = [];
+  List<String> updatedBy = [];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
