@@ -28,6 +28,7 @@ class DocumentsScreen extends StatelessWidget {
         child: Column(
           children: [
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) => Container(
                 padding: EdgeInsets.all(10),
                 height: 250,
