@@ -9,6 +9,7 @@ class DocumentsScreen extends StatefulWidget {
 }
 
 class _DocumentsScreenState extends State<DocumentsScreen> {
+  List<String> docNames = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
