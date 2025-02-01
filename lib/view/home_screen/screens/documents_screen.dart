@@ -19,6 +19,9 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
   List<String> patientIds = [
     "RCVKAJNAHNAJNA",
     "LACHBEUNMAMANA",
+    "RCVKAJNAJNAA",
+    "ACKKAJNAHNAJNA",
+    "HUFBEUNMAMANA",
   ];
   List<String> designations = [];
   List<String> dates = [];
