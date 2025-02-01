@@ -19,7 +19,9 @@ class DocumentsScreen extends StatelessWidget {
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.only(
+          left: 16,
+        ),
         child: Column(
           children: [
             Container(
