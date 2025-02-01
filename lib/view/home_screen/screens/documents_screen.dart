@@ -11,6 +11,10 @@ class DocumentsScreen extends StatefulWidget {
 class _DocumentsScreenState extends State<DocumentsScreen> {
   List<String> docNames = [
     "Dr.Ryle kincaid",
+    "Dr. Alex Volkov",
+    "Dr.Rhys Larsen",
+    "Dr. Josh Chen",
+    "Dr.Christain Harper",
   ];
   List<String> patientIds = [];
   List<String> designations = [];
