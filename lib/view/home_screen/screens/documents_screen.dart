@@ -16,7 +16,9 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
     "Dr. Josh Chen",
     "Dr.Christain Harper",
   ];
-  List<String> patientIds = [];
+  List<String> patientIds = [
+    "RCVKAJNAHNAJNA",
+  ];
   List<String> designations = [];
   List<String> dates = [];
   List<String> updatedBy = [];
