@@ -22,6 +22,8 @@ class DocumentsScreen extends StatelessWidget {
         padding: const EdgeInsets.only(
           left: 16,
           right: 16,
+          top: 50,
+          bottom: 20,
         ),
         child: Column(
           children: [
