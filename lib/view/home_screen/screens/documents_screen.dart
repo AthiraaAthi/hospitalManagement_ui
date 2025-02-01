@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 
-class DocumentsScreen extends StatelessWidget {
+class DocumentsScreen extends StatefulWidget {
   const DocumentsScreen({super.key});
 
+  @override
+  State<DocumentsScreen> createState() => _DocumentsScreenState();
+}
+
+class _DocumentsScreenState extends State<DocumentsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
