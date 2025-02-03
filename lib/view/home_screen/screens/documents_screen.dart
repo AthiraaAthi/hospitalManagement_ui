@@ -110,7 +110,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                                 fontSize: 20,
                                 fontWeight: FontWeight.w500)),
                         Text(
-                          "Assistant Professor",
+                          designations[index],
                           style: TextStyle(
                               color: Colors.grey,
                               fontSize: 15,
