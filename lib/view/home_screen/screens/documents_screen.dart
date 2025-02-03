@@ -42,6 +42,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
     "Patient",
     "Patient",
     "Doctor",
+    "Patient",
   ];
 
   @override
