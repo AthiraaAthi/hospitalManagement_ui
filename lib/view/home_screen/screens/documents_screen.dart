@@ -52,6 +52,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
           child: Column(
             children: [
               ListView.builder(
+                physics: NeverScrollableScrollPhysics(),
                 itemCount: docNames.length,
                 shrinkWrap: true,
                 itemBuilder: (context, index) => Padding(
