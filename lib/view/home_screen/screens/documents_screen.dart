@@ -104,7 +104,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                         SizedBox(
                           height: 20,
                         ),
-                        Text("Dr.Ryle Kincaid",
+                        Text(docNames[index],
                             style: TextStyle(
                                 color: black,
                                 fontSize: 20,
