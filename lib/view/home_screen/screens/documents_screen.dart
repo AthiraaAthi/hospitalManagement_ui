@@ -94,7 +94,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                             color: mainGreen,
                           ),
                           child: Center(
-                            child: Text("Patient ID :RCVKAJNAHNAJNA",
+                            child: Text("Patient ID :${patientIds[index]}",
                                 style: TextStyle(
                                     color: white,
                                     fontSize: 13,
