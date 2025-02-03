@@ -37,7 +37,9 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
     "04-02-2025",
     "05-02-2025",
   ];
-  List<String> updatedBy = [];
+  List<String> updatedBy = [
+    "Doctor",
+  ];
 
   @override
   Widget build(BuildContext context) {
