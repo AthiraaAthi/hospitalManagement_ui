@@ -39,6 +39,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
   ];
   List<String> updatedBy = [
     "Doctor",
+    "Patient",
   ];
 
   @override
