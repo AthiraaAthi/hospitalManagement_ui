@@ -51,6 +51,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
         child: Column(
           children: [
             ListView.builder(
+              itemCount: docNames.length,
               shrinkWrap: true,
               itemBuilder: (context, index) => Container(
                 padding: EdgeInsets.all(10),
