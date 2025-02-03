@@ -41,131 +41,133 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
             style: TextStyle(
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
-      body: Padding(
-        padding: const EdgeInsets.only(
-          left: 16,
-          right: 16,
-          top: 50,
-          bottom: 20,
-        ),
-        child: Column(
-          children: [
-            ListView.builder(
-              itemCount: docNames.length,
-              shrinkWrap: true,
-              itemBuilder: (context, index) => Container(
-                padding: EdgeInsets.all(10),
-                height: 250,
-                width: double.infinity,
-                decoration: BoxDecoration(border: Border.all(color: black)),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Container(
-                      height: 30,
-                      width: 300,
-                      decoration: BoxDecoration(
-                        color: mainGreen,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.only(
+            left: 16,
+            right: 16,
+            top: 50,
+            bottom: 20,
+          ),
+          child: Column(
+            children: [
+              ListView.builder(
+                itemCount: docNames.length,
+                shrinkWrap: true,
+                itemBuilder: (context, index) => Container(
+                  padding: EdgeInsets.all(10),
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(border: Border.all(color: black)),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      SizedBox(
+                        height: 10,
                       ),
-                      child: Center(
-                        child: Text("Patient ID :RCVKAJNAHNAJNA",
-                            style: TextStyle(
-                                color: white,
-                                fontSize: 13,
-                                fontWeight: FontWeight.w500)),
+                      Container(
+                        height: 30,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: mainGreen,
+                        ),
+                        child: Center(
+                          child: Text("Patient ID :RCVKAJNAHNAJNA",
+                              style: TextStyle(
+                                  color: white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w500)),
+                        ),
                       ),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Text("Dr.Ryle Kincaid",
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Text("Dr.Ryle Kincaid",
+                          style: TextStyle(
+                              color: black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.w500)),
+                      Text(
+                        "Assistant Professor",
                         style: TextStyle(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w500)),
-                    Text(
-                      "Assistant Professor",
-                      style: TextStyle(
-                          color: Colors.grey,
-                          fontSize: 15,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Text(
-                      "Date : 31-01-2025",
-                      style: TextStyle(
-                          color: Colors.grey,
-                          fontSize: 15,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    Text(
-                      "Updated by : Patient",
-                      style: TextStyle(
-                          color: Colors.grey,
-                          fontSize: 15,
-                          fontWeight: FontWeight.w500),
-                    ),
-                    SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Container(
-                          height: 40,
-                          width: 100,
-                          decoration: BoxDecoration(
-                            color: black,
-                            borderRadius: BorderRadius.circular(5),
+                            color: Colors.grey,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      Text(
+                        "Date : 31-01-2025",
+                        style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      Text(
+                        "Updated by : Patient",
+                        style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            height: 40,
+                            width: 100,
+                            decoration: BoxDecoration(
+                              color: black,
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            child: Center(
+                              child: Text("view Profile",
+                                  style: TextStyle(
+                                      color: white,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.w500)),
+                            ),
                           ),
-                          child: Center(
-                            child: Text("view Profile",
-                                style: TextStyle(
-                                    color: white,
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w500)),
+                          Container(
+                            height: 40,
+                            width: 100,
+                            decoration: BoxDecoration(
+                              color: mainGreen,
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            child: Center(
+                              child: Text("Edit",
+                                  style: TextStyle(
+                                      color: white,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.w500)),
+                            ),
                           ),
-                        ),
-                        Container(
-                          height: 40,
-                          width: 100,
-                          decoration: BoxDecoration(
-                            color: mainGreen,
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          child: Center(
-                            child: Text("Edit",
-                                style: TextStyle(
-                                    color: white,
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w500)),
-                          ),
-                        ),
-                        Container(
-                          height: 40,
-                          width: 100,
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          child: Center(
-                            child: Text("Delete",
-                                style: TextStyle(
-                                    color: white,
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w500)),
-                          ),
-                        )
-                      ],
-                    )
-                  ],
+                          Container(
+                            height: 40,
+                            width: 100,
+                            decoration: BoxDecoration(
+                              color: Colors.red,
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            child: Center(
+                              child: Text("Delete",
+                                  style: TextStyle(
+                                      color: white,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.w500)),
+                            ),
+                          )
+                        ],
+                      )
+                    ],
+                  ),
                 ),
-              ),
-            )
-          ],
+              )
+            ],
+          ),
         ),
       ),
     );
