@@ -23,7 +23,13 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
     "ACKKAJNAHNAJNA",
     "HUFBEUNMAMANA",
   ];
-  List<String> designations = [];
+  List<String> designations = [
+    "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
+    "Assistant Professor",
+  ];
   List<String> dates = [];
   List<String> updatedBy = [];
 
