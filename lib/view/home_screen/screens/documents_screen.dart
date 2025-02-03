@@ -117,14 +117,14 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                               fontWeight: FontWeight.w500),
                         ),
                         Text(
-                          "Date : 31-01-2025",
+                          "Date : ${dates[index]}",
                           style: TextStyle(
                               color: Colors.grey,
                               fontSize: 15,
                               fontWeight: FontWeight.w500),
                         ),
                         Text(
-                          "Updated by : Patient",
+                          "Updated by : ${updatedBy[index]}",
                           style: TextStyle(
                               color: Colors.grey,
                               fontSize: 15,
