@@ -29,6 +29,7 @@ class AppointmentListScreen extends StatelessWidget {
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 215, 214, 214),
               ),
+              child: Text("Tuesday 2025-02-06 | SN :4"),
             )
           ],
         ),
