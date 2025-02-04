@@ -21,9 +21,16 @@ class AppointmentListScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: 50,
+            height: 30,
             width: double.infinity,
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(
+              border: Border(
+                bottom: BorderSide(
+                  color: mainGreen,
+                  width: 1,
+                ),
+              ),
+            ),
           )
         ],
       ),
