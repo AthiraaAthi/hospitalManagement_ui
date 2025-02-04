@@ -14,6 +14,9 @@ class AppointmentListScreen extends StatelessWidget {
             },
             child: Icon(Icons.arrow_back, color: white)),
         backgroundColor: mainGreen,
+        title: Text('Appointment List',
+            style: TextStyle(
+                color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
     );
   }
