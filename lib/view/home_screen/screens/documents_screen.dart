@@ -64,7 +64,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
           padding: const EdgeInsets.only(
             left: 16,
             right: 16,
-            top: 50,
+            top: 30,
             bottom: 20,
           ),
           child: Column(
