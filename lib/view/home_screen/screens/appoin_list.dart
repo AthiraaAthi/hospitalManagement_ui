@@ -13,6 +13,7 @@ class AppointmentListScreen extends StatelessWidget {
               Navigator.pop(context);
             },
             child: Icon(Icons.arrow_back, color: white)),
+        backgroundColor: mainGreen,
       ),
     );
   }
