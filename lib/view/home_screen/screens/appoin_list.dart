@@ -35,7 +35,11 @@ class AppointmentListScreen extends StatelessWidget {
                 "Tuesday 2025-02-06 | SN :4",
                 style: TextStyle(color: const Color.fromARGB(255, 89, 88, 88)),
               )),
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Container()
           ],
         ),
       ),
