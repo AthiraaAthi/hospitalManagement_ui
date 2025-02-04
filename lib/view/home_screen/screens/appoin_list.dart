@@ -18,21 +18,19 @@ class AppointmentListScreen extends StatelessWidget {
             style: TextStyle(
                 color: white, fontSize: 20, fontWeight: FontWeight.w600)),
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 30,
-            width: double.infinity,
-            decoration: BoxDecoration(
-              border: Border(
-                bottom: BorderSide(
-                  color: mainGreen,
-                  width: 1,
-                ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            Container(
+              height: 30,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                border: Border.all(color: mainGreen),
               ),
-            ),
-          )
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
