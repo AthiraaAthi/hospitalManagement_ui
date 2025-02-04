@@ -23,6 +23,7 @@ class AppointmentListScreen extends StatelessWidget {
           Container(
             height: 50,
             width: double.infinity,
+            decoration: BoxDecoration(),
           )
         ],
       ),
