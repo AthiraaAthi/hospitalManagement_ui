@@ -30,7 +30,11 @@ class AppointmentListScreen extends StatelessWidget {
                 //color: const Color.fromARGB(255, 215, 214, 214),
                 border: Border.all(color: mainGreen),
               ),
-              child: Center(child: Text("Tuesday 2025-02-06 | SN :4")),
+              child: Center(
+                  child: Text(
+                "Tuesday 2025-02-06 | SN :4",
+                style: TextStyle(color: const Color.fromARGB(255, 89, 88, 88)),
+              )),
             )
           ],
         ),
