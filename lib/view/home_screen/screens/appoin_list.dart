@@ -61,6 +61,10 @@ class AppointmentListScreen extends StatelessWidget {
                     children: [
                       Text(
                         'Dr.Ryle Kincaid',
+                        style: TextStyle(
+                            color: const Color.fromARGB(255, 89, 88, 88),
+                            fontSize: 20,
+                            fontWeight: FontWeight.w600),
                       ),
                     ],
                   )
