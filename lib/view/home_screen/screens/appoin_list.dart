@@ -49,7 +49,10 @@ class AppointmentListScreen extends StatelessWidget {
                   Container(
                     height: 60,
                     width: 60,
-                    decoration: BoxDecoration(),
+                    decoration: BoxDecoration(
+                      color: mainGreen,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   )
                 ],
               ),
