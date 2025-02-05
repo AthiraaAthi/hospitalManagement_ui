@@ -72,9 +72,12 @@ class AppointmentListScreen extends StatelessWidget {
                       Text(
                         'Neuroligist',
                         style: TextStyle(
-                            color: const Color.fromARGB(255, 89, 88, 88),
-                            fontSize: 15,
-                            fontWeight: FontWeight.w600),
+                          color: const Color.fromARGB(255, 89, 88, 88),
+                          fontSize: 15,
+                        ),
+                      ),
+                      Text(
+                        'AID: AZC3718191191',
                       ),
                     ],
                   )
