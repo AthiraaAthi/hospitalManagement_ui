@@ -53,7 +53,10 @@ class AppointmentListScreen extends StatelessWidget {
                       color: mainGreen,
                       borderRadius: BorderRadius.circular(10),
                     ),
-                  )
+                  ),
+                  SizedBox(
+                    width: 25,
+                  ),
                 ],
               ),
             )
