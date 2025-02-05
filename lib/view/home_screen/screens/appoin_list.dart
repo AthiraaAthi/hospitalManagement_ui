@@ -66,6 +66,9 @@ class AppointmentListScreen extends StatelessWidget {
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       ),
+                      SizedBox(
+                        height: 10,
+                      ),
                     ],
                   )
                 ],
