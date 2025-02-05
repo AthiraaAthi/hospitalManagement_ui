@@ -45,7 +45,12 @@ class AppointmentListScreen extends StatelessWidget {
                 border: Border.all(color: mainGreen),
               ),
               child: Row(
-                children: [],
+                children: [
+                  Container(
+                    height: 60,
+                    width: 60,
+                  )
+                ],
               ),
             )
           ],
