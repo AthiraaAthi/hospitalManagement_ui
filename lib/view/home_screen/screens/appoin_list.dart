@@ -78,6 +78,10 @@ class AppointmentListScreen extends StatelessWidget {
                       ),
                       Text(
                         'AID: AZC3718191191',
+                        style: TextStyle(
+                          color: const Color.fromARGB(255, 89, 88, 88),
+                          fontSize: 15,
+                        ),
                       ),
                     ],
                   )
