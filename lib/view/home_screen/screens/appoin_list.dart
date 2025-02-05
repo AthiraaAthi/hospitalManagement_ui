@@ -58,7 +58,11 @@ class AppointmentListScreen extends StatelessWidget {
                     width: 25,
                   ),
                   Column(
-                    children: [],
+                    children: [
+                      Text(
+                        'Dr.Ryle Kincaid',
+                      ),
+                    ],
                   )
                 ],
               ),
