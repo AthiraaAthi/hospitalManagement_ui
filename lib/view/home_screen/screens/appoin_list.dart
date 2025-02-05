@@ -57,7 +57,9 @@ class AppointmentListScreen extends StatelessWidget {
                   SizedBox(
                     width: 25,
                   ),
-                  Column()
+                  Column(
+                    children: [],
+                  )
                 ],
               ),
             )
