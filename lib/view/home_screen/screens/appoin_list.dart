@@ -13,6 +13,7 @@ class _AppointmentListScreenState extends State<AppointmentListScreen> {
   List<String> docNAme = [];
   List<String> docSpeciality = [];
   List<String> docAID = [];
+  List<String> docSchedule = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
