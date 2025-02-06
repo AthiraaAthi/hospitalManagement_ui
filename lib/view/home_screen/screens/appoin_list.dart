@@ -11,6 +11,7 @@ class AppointmentListScreen extends StatefulWidget {
 
 class _AppointmentListScreenState extends State<AppointmentListScreen> {
   List<String> docNAme = [];
+  List<String> docSpeciality = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
