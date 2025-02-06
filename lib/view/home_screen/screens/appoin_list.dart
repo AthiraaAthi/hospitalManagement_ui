@@ -27,7 +27,6 @@ class AppointmentListScreen extends StatelessWidget {
               height: 30,
               width: double.infinity,
               decoration: BoxDecoration(
-                //color: const Color.fromARGB(255, 215, 214, 214),
                 border: Border.all(color: mainGreen),
               ),
               child: Center(
@@ -72,7 +71,7 @@ class AppointmentListScreen extends StatelessWidget {
                       Text(
                         'Neuroligist',
                         style: TextStyle(
-                          color: const Color.fromARGB(255, 89, 88, 88),
+                          color: Colors.grey,
                           fontSize: 15,
                         ),
                       ),
