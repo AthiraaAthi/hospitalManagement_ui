@@ -10,7 +10,10 @@ class AppointmentListScreen extends StatefulWidget {
 }
 
 class _AppointmentListScreenState extends State<AppointmentListScreen> {
-  List<String> docNAme = [];
+  List<String> docNAme = [
+    "Dr.Ryle Kincaid",
+    "Dr.Alex Volkov",
+  ];
   List<String> docSpeciality = [];
   List<String> docAID = [];
   List<String> docSchedule = [];
