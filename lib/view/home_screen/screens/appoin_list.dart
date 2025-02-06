@@ -57,6 +57,7 @@ class AppointmentListScreen extends StatelessWidget {
                     width: 25,
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Text(
                         'Dr.Ryle Kincaid',
