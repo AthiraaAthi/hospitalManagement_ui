@@ -84,6 +84,7 @@ class AppointmentListScreen extends StatelessWidget {
                       ),
                       Text(
                         'Schedule: 12:00:00 15:00:00',
+                        style: TextStyle(),
                       ),
                     ],
                   )
