@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
+import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
 class AppointmentListScreen extends StatelessWidget {
   const AppointmentListScreen({super.key});
@@ -51,6 +52,8 @@ class AppointmentListScreen extends StatelessWidget {
                     width: 100,
                     decoration: BoxDecoration(
                       color: mainGreen,
+                      image: DecorationImage(
+                          image: AssetImage(ImageConstant.ryle)),
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
