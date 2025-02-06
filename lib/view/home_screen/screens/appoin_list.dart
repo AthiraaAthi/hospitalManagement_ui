@@ -53,7 +53,10 @@ class AppointmentListScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: mainGreen,
                       image: DecorationImage(
-                          image: AssetImage(ImageConstant.ryle)),
+                          image: AssetImage(
+                            ImageConstant.ryle,
+                          ),
+                          fit: BoxFit.cover),
                       borderRadius: BorderRadius.circular(10),
                     ),
                   ),
