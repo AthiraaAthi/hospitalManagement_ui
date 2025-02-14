@@ -89,12 +89,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Row(
                   children: [
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                     ),
                     SizedBox(
                       width: 10,
                     ),
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
                           "Dominic Davenport",
