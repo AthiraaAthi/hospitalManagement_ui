@@ -18,5 +18,5 @@ class ImageConstant {
   static String christain = "assets/images/christain.jpg";
   static String aboutUsDoc = "assets/images/aboutUs_doc.png";
   static String operating = "assets/images/operating.png";
-  static String dp = "assets/images/jk.jpeg";
+  static String profile = "assets/images/jk.jpeg";
 }
