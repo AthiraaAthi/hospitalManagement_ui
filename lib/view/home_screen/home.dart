@@ -74,29 +74,26 @@ class _HomeScreenState extends State<HomeScreen> {
     AboutUsScreen(), //temporary
     AboutUsScreen(), //temporary
   ];
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      endDrawer: Drawer(
-        child: Column(
-          children: [],
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            DrawerHeader(
+                decoration: BoxDecoration(
+                  color: mainGreen,
+                ),
+                child: Row()),
+          ],
         ),
       ),
-      key: _scaffoldKey,
       backgroundColor: white,
       appBar: AppBar(
         backgroundColor: white,
         toolbarHeight: 100,
-        leading: InkWell(
-          onTap: () {
-            _scaffoldKey.currentState?.openEndDrawer();
-          },
-          child: Icon(
-            Icons.menu,
-            size: 30,
-          ),
-        ),
         centerTitle: true,
         title: Row(
           children: [
