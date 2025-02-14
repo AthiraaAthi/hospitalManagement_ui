@@ -78,6 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       backgroundColor: white,
       appBar: AppBar(
         backgroundColor: white,
