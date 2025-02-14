@@ -104,9 +104,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                         Text(
                           "dominic_ale@gmail.com",
-                          style: TextStyle(
-                            color: white,
-                          ),
+                          style: TextStyle(color: white, fontSize: 13),
                         ),
                       ],
                     )
