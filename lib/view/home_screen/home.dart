@@ -89,6 +89,9 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: white,
         toolbarHeight: 100,
         leading: InkWell(
+          onTap: () {
+            _scaffoldKey.currentState?.openEndDrawer();
+          },
           child: Icon(
             Icons.menu,
             size: 30,
