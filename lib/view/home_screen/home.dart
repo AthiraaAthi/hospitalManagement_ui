@@ -102,6 +102,12 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: white,
                           ),
                         ),
+                        Text(
+                          "dominic_ale@gmail.com",
+                          style: TextStyle(
+                            color: white,
+                          ),
+                        ),
                       ],
                     )
                   ],
