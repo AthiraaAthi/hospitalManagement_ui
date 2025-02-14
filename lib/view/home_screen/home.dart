@@ -74,6 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
     AboutUsScreen(), //temporary
     AboutUsScreen(), //temporary
   ];
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
