@@ -88,9 +88,11 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: white,
         toolbarHeight: 100,
-        leading: Icon(
-          Icons.menu,
-          size: 30,
+        leading: InkWell(
+          child: Icon(
+            Icons.menu,
+            size: 30,
+          ),
         ),
         centerTitle: true,
         title: Row(
