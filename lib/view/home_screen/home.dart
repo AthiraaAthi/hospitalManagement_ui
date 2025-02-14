@@ -86,7 +86,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 decoration: BoxDecoration(
                   color: mainGreen,
                 ),
-                child: Row()),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 50,
+                    )
+                  ],
+                )),
           ],
         ),
       ),
