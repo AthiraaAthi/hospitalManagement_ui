@@ -96,7 +96,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     Column(
                       children: [
-                        Text("Dominic Davenport"),
+                        Text(
+                          "Dominic Davenport",
+                          style: TextStyle(
+                            color: white,
+                          ),
+                        ),
                       ],
                     )
                   ],
