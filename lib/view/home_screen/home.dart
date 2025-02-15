@@ -84,6 +84,7 @@ class _HomeScreenState extends State<HomeScreen> {
     "Contact Us",
     "Log Out",
   ];
+  List<Icon> drawerIcons = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
