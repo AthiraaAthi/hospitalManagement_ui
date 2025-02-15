@@ -132,6 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 )),
             ListView.builder(
               shrinkWrap: true,
+              itemCount: drawrOptions.length,
               itemBuilder: (context, index) => ListTile(
                 leading: Icon(
                   Icons.home_outlined,
