@@ -113,7 +113,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 )),
             ListTile(
-              leading: Icon(Icons.home),
+              leading: Icon(
+                Icons.home_outlined,
+                color: mainGreen,
+              ),
               title: Text("Home"),
               onTap: () {},
             ),
