@@ -80,6 +80,9 @@ class _HomeScreenState extends State<HomeScreen> {
     "Appointment",
     "Documents",
     "Upload Documents",
+    "About Us",
+    "Contact Us",
+    "Log Out",
   ];
   @override
   Widget build(BuildContext context) {
