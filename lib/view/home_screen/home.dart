@@ -116,6 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
               leading: Icon(
                 Icons.home_outlined,
                 color: mainGreen,
+                size: 30,
               ),
               title: Text("Home"),
               onTap: () {},
