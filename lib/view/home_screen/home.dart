@@ -74,7 +74,9 @@ class _HomeScreenState extends State<HomeScreen> {
     AboutUsScreen(), //temporary
     AboutUsScreen(), //temporary
   ];
-  List<String> drawrOptions = [];
+  List<String> drawrOptions = [
+    "Home",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
