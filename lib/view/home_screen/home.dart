@@ -130,15 +130,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     )
                   ],
                 )),
-            ListTile(
-              leading: Icon(
-                Icons.home_outlined,
-                color: mainGreen,
-                size: 30,
+            ListView.builder(
+              shrinkWrap: true,
+              itemBuilder: (context, index) => ListTile(
+                leading: Icon(
+                  Icons.home_outlined,
+                  color: mainGreen,
+                  size: 30,
+                ),
+                title: Text("Home", style: TextStyle(fontSize: 20)),
+                onTap: () {},
               ),
-              title: Text("Home", style: TextStyle(fontSize: 20)),
-              onTap: () {},
-            ),
+            )
           ],
         ),
       ),
