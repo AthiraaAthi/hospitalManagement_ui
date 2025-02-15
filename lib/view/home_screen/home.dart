@@ -76,6 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
   ];
   List<String> drawrOptions = [
     "Home",
+    "Edit Profile",
   ];
   @override
   Widget build(BuildContext context) {
