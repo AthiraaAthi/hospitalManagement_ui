@@ -88,6 +88,8 @@ class _HomeScreenState extends State<HomeScreen> {
     Icons.home_outlined,
     Icons.edit_outlined,
     Icons.event_outlined,
+    Icons.description_outlined,
+    Icons.cloud_upload_outlined,
   ];
   @override
   Widget build(BuildContext context) {
