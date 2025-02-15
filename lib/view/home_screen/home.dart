@@ -135,11 +135,12 @@ class _HomeScreenState extends State<HomeScreen> {
               itemCount: drawrOptions.length,
               itemBuilder: (context, index) => ListTile(
                 leading: Icon(
-                  Icons.home_outlined,
+                  drawerIcons[index],
                   color: mainGreen,
                   size: 30,
                 ),
-                title: Text("Home", style: TextStyle(fontSize: 20)),
+                title:
+                    Text(drawrOptions[index], style: TextStyle(fontSize: 20)),
                 onTap: () {},
               ),
             )
