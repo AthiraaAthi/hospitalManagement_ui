@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: mainGreen,
                 size: 30,
               ),
-              title: Text("Home"),
+              title: Text("Home", style: TextStyle(fontSize: 20)),
               onTap: () {},
             ),
           ],
