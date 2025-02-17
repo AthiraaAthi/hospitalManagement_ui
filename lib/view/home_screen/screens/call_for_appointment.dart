@@ -44,6 +44,13 @@ class CallForAppointment extends StatelessWidget {
                     ),
                   ],
                 )),
+                Text(
+                  "MANAGER",
+                  style: TextStyle(
+                    fontSize: 17,
+                    letterSpacing: 14,
+                  ),
+                ),
               ],
             ),
           ],
