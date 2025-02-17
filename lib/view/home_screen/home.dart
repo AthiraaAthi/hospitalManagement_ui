@@ -5,6 +5,7 @@ import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 import 'package:hospital_ui/view/home_screen/screens/about_us.dart';
 import 'package:hospital_ui/view/home_screen/screens/appoin_list.dart';
 import 'package:hospital_ui/view/home_screen/screens/book_appoinmnt.dart';
+import 'package:hospital_ui/view/home_screen/screens/call_for_appointment.dart';
 import 'package:hospital_ui/view/home_screen/screens/doc_list.dart';
 import 'package:hospital_ui/view/home_screen/screens/documents_screen.dart';
 
@@ -70,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
     DocumentsScreen(),
     AppointmentListScreen(),
     BookAppointment(), //temporary
-    DoctorListScreen(), //temporary
+    CallForAppointment(),
     AboutUsScreen(), //temporary
     AboutUsScreen(), //temporary
   ];
