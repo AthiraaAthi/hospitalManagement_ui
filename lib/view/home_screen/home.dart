@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   size: 30,
                 ),
                 title:
-                    Text(drawrOptions[index], style: TextStyle(fontSize: 20)),
+                    Text(drawrOptions[index], style: TextStyle(fontSize: 17)),
                 onTap: () {},
               ),
             )
