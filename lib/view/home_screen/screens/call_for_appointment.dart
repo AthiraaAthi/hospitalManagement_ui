@@ -33,6 +33,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: white,
       drawer: Drawer(
         child: Column(
           children: [
@@ -66,6 +67,20 @@ class _CallForAppointmentState extends State<CallForAppointment> {
                     )
                   ],
                 )),
+            ListView.builder(
+              shrinkWrap: true,
+              itemCount: drawrOptions.length,
+              itemBuilder: (context, index) => ListTile(
+                leading: Icon(
+                  drawerIcons[index],
+                  color: mainGreen,
+                  size: 30,
+                ),
+                title:
+                    Text(drawrOptions[index], style: TextStyle(fontSize: 17)),
+                onTap: () {},
+              ),
+            )
           ],
         ),
       ),
