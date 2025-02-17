@@ -2,12 +2,73 @@ import 'package:flutter/material.dart';
 import 'package:hospital_ui/utils/color_constant/color_constant.dart';
 import 'package:hospital_ui/utils/img_constant/image_constant.dart';
 
-class CallForAppointment extends StatelessWidget {
+class CallForAppointment extends StatefulWidget {
   const CallForAppointment({super.key});
 
   @override
+  State<CallForAppointment> createState() => _CallForAppointmentState();
+}
+
+class _CallForAppointmentState extends State<CallForAppointment> {
+  List<String> drawrOptions = [
+    "Home",
+    "Edit Profile",
+    "Appointment",
+    "Documents",
+    "Upload Documents",
+    "About Us",
+    "Contact Us",
+    "Log Out",
+  ];
+  List<IconData> drawerIcons = [
+    Icons.home_outlined,
+    Icons.edit_outlined,
+    Icons.event_outlined,
+    Icons.description_outlined,
+    Icons.cloud_upload_outlined,
+    Icons.info_outline,
+    Icons.contact_mail_outlined,
+    Icons.logout,
+  ];
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+        child: Column(
+          children: [
+            DrawerHeader(
+                decoration: BoxDecoration(
+                  color: mainGreen,
+                ),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 40,
+                      backgroundImage: AssetImage(ImageConstant.profile),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text(
+                          "Dominic Davenport",
+                          style: TextStyle(
+                            color: white,
+                          ),
+                        ),
+                        Text(
+                          "dominic_ale@gmail.com",
+                          style: TextStyle(color: white, fontSize: 13),
+                        ),
+                      ],
+                    )
+                  ],
+                )),
+          ],
+        ),
+      ),
       appBar: AppBar(
         backgroundColor: white,
         toolbarHeight: 100,
