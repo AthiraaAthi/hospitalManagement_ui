@@ -135,6 +135,9 @@ class _CallForAppointmentState extends State<CallForAppointment> {
           ],
         ),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
