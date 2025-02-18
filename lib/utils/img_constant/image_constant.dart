@@ -24,4 +24,6 @@ class ImageConstant {
   static String emergency = "assets\images\emergency.png";
   static String operation = "assets\images\operation.png";
   static String clinics = "assets\images\clinics.png";
+  static String surgeon = "assets\images\surgeon.png";
+  static String medicine = "assets\images\medicine.png";
 }
