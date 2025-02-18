@@ -21,13 +21,14 @@ class ImageConstant {
   static String profile = "assets/images/jk.jpeg";
   static String reception = "assets/images/reception.png";
   static String laboratory = "assets/images/labortary.png";
-  static String emergency = "assets\images\emergency.png";
-  static String operation = "assets\images\operation.png";
-  static String clinics = "assets\images\clinics.png";
-  static String surgeon = "assets\images\surgeon.png";
-  static String medicine = "assets\images\medicine.png";
-  static String dental = "assets\images\dental.png";
-  static String cardiology = "assets\images\cardiology.png";
+  static String emergency = "assets/images/emergency.png";
+  static String operation = "assets/images/operation.png";
+  static String clinics = "assets/images/clinics.png";
+  static String surgeon = "assets/images/surgeon.png";
+  static String medicine = "assets/images/medicine.png";
+  static String dental = "assets/images/dental.png";
+  static String cardiology = "assets/images/cardiology.png";
   static String urology = "assets/images/urology.png";
-  static String radiologist = "assets\images\radiologist.png";
+  static String radiologist = "assets/images/radiologist.png";
+  static String physiotherapy = "assets/images/physiotherapy.png";
 }
