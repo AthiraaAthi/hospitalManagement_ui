@@ -36,7 +36,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: white,
+      backgroundColor: mainGreen,
       drawer: Drawer(
         child: Column(
           children: [
@@ -139,13 +139,19 @@ class _CallForAppointmentState extends State<CallForAppointment> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            Container(
-              height: 100,
-              width: 100,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage(ImageConstant.reception),
-                  fit: BoxFit.cover,
+            GridView.builder(
+              shrinkWrap: true,
+              itemCount: 6,
+              gridDelegate:
+                  SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+              itemBuilder: (context, index) => Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(ImageConstant.reception),
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ),
