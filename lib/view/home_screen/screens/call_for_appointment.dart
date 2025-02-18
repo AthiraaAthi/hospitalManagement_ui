@@ -30,7 +30,9 @@ class _CallForAppointmentState extends State<CallForAppointment> {
     Icons.contact_mail_outlined,
     Icons.logout,
   ];
-  List<String> appointmentOptions = [];
+  List<String> appointmentOptions = [
+    ImageConstant.reception,
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
