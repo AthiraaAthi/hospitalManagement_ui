@@ -145,6 +145,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
                 crossAxisSpacing: 15,
+                mainAxisSpacing: 10,
               ),
               itemBuilder: (context, index) => Container(
                 height: 100,
