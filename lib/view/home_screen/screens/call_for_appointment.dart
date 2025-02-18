@@ -141,7 +141,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
           children: [
             GridView.builder(
               shrinkWrap: true,
-              itemCount: 6,
+              itemCount: 9,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
                 crossAxisSpacing: 15,
