@@ -138,7 +138,18 @@ class _CallForAppointmentState extends State<CallForAppointment> {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
-          children: [],
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage(ImageConstant.reception),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
