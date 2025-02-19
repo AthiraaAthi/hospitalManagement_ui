@@ -83,7 +83,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
                 )),
             ListView.builder(
               shrinkWrap: true,
-              itemCount: drawrOptions.length,
+              itemCount: appointmentOptions.length,
               itemBuilder: (context, index) => ListTile(
                 leading: Icon(
                   drawerIcons[index],
