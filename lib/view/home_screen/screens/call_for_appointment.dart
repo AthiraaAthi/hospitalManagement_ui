@@ -163,7 +163,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
                 width: 100,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage(ImageConstant.reception),
+                    image: AssetImage(appointmentOptions[index]),
                     fit: BoxFit.cover,
                   ),
                 ),
