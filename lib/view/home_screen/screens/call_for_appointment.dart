@@ -147,7 +147,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.only(left: 16, right: 16),
         child: Column(
           children: [
             GridView.builder(
