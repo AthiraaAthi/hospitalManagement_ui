@@ -40,6 +40,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
     ImageConstant.medicine,
     ImageConstant.dental,
     ImageConstant.cardiology,
+    ImageConstant.urology,
   ];
   @override
   Widget build(BuildContext context) {
