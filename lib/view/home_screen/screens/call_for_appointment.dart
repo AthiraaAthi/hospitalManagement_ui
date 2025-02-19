@@ -47,7 +47,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: mainGreen,
+      backgroundColor: white,
       drawer: Drawer(
         child: Column(
           children: [
