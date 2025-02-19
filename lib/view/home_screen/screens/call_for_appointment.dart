@@ -83,7 +83,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
                 )),
             ListView.builder(
               shrinkWrap: true,
-              itemCount: appointmentOptions.length,
+              itemCount: drawrOptions.length,
               itemBuilder: (context, index) => ListTile(
                 leading: Icon(
                   drawerIcons[index],
@@ -152,7 +152,7 @@ class _CallForAppointmentState extends State<CallForAppointment> {
           children: [
             GridView.builder(
               shrinkWrap: true,
-              itemCount: 9,
+              itemCount: appointmentOptions.length,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
                 crossAxisSpacing: 15,
