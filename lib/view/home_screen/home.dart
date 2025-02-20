@@ -17,12 +17,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final List<Color> colorList = [
-    Colors.red,
-    Colors.blue,
-    Colors.green,
-    Colors.orange
-  ];
   int activeIndex = 0;
 
   final List<String> optTitles = [
@@ -228,7 +222,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: List.generate(colorList.length, (index) {
+            children: List.generate(carousalList.length, (index) {
               return Padding(
                 padding: EdgeInsets.symmetric(horizontal: 5.0),
                 child: CircleAvatar(
