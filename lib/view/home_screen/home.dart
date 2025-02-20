@@ -205,7 +205,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 return Container(
                   width: double.infinity,
                   decoration: BoxDecoration(
-                      color: colorList[index],
                       borderRadius: BorderRadius.circular(25),
                       image: DecorationImage(
                           image: AssetImage(carousalList[index]),
